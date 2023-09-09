@@ -1,0 +1,10 @@
+#+TITLE: When Danes Prayed in German
+
+This is a resource webpage for the project /When Danes Prayed in German/.
+
+* Texts in Middle Low German and Old Danish
+- [[texts/Sidrach.html][The Book of Sidrach]]
+
+* Other internet resources
+- [[https://www.koeblergerhard.de/mndwbhin.html][Köbler, Gerhard, Mittelniederdeutsches Wörterbuch, 3. A. 2014]]
+- [[http://medingen.seh.ox.ac.uk][Medingen Manuscripts blog]] (with glossary)
