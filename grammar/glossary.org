@@ -1,0 +1,636 @@
+#+TITLE: A Glossary of Middle Low German
+This glossary contains words found in the reading texts for the Middle Low German reading group.
+
+* New words
+#+ATTR_HTML: :border 2 :rules all :frame border
+|-------------------+------------------+------+---------------------|
+| Form in text      | Lemma            | POS  | Definition          |
+|-------------------+------------------+------+---------------------|
+| ordel             | ordel            | n/f  | judgement           |
+| water vloet       | water vlot       | f    | flood               |
+| quam              | komen            |      |                     |
+| upp               | up               | prep | up, on              |
+| ertryke           | ertrike          | f    | Kingdom of Earth    |
+| andere            | ander            | pron | other               |
+| vormerende        | vormeren         | v    | increase            |
+| mennichvoldighen, | mennichvoldigen  | v    | multiply            |
+| Noe               | Noe              |      |                     |
+| wyff              | wif              | n    | wife                |
+| wanderden         | wanderen         | v    | wander              |
+| begunden          | beginnen         | v    | begin               |
+| arbeydende        | arbeiden         | v    | work                |
+| syk               | sik              | pron | (reflexive pronoun) |
+| willen            | wille            | m    | will                |
+| erer              | er(er)           | poss | their               |
+| benedyede         | benedien         | v    | bless               |
+| gaff              | geven            | v    | give                |
+| benedyinghe       | beneding         | f    | blessing            |
+| wassende          | wassen           | v    | grow                |
+| mennichvoldich    | mennichvoldich   | adj  | manifold, numerous  |
+| werdende.         | werden           | v    | become              |
+| hete              | heten            | v    | be called           |
+| Japhet,           | Japhet           | prop | Japheth             |
+| slechten          | slechte          | n    | family, lineage     |
+| quemen,           | komen            | v    | come                |
+| hilden            | holden           | v    | hold                |
+| hilt.             | holden           | v    | hold                |
+| dorch             | dorch            | prep | through             |
+| grote             | grot             | adj  | great, large        |
+| openbaren         | openbaren        | v    | reveal              |
+| leve,             | leve             | f    | love                |
+| hadde             | hebben           | v    | have                |
+| leet              | leden            | v    | lead                |
+| ghewaer           | gewar            | adj  | aware               |
+| werden            | werden           | v    | become              |
+| geslechte,        | geslechte        | n    | family, lineage     |
+| Syderack,1        | Sydrak           | prop | Sidrach             |
+| vorvullede        | vorvullen        | v    | complete            |
+| alre              | al               |      |                     |
+| wisheit           | wisheit          | f    | wisdom              |
+| wetende           | weten            |      |                     |
+| werden            | werden           |      |                     |
+| ghescheen         | schen            | v    | happen              |
+| wente             | wente (-->wante) |      |                     |
+| Dessen            | desse            | pron | this                |
+| werdighede        | werdigen         | v    | honor, appreciate   |
+| vormiddelst       | vormiddelst      | prep | amidst, amongst     |
+|                   |                  |      |                     |
+| forme             | forme            | f    | form                |
+| drevaldicheit,    | drevaldicheit    | f    | Trinity             |
+| worby             | worbi            | conj | whereby             |
+| anwyser           | anwiser          | m    | teacher             |
+| dar ane           | darane           | adv  | in that manner      |
+| openbaer,         | openbar          | adj  | obvious, revealed   |
+| vorkundighede     | vorkundigen      | v    | proclaim, report    |
+| unghelovighen     | ungelovich       | adj  | unbelieving         |
+| konnigh,          | koning           | m    | king                |
+| omme              | umme             |      |                     |
+| bekerende,        | bekeren          | v    | convert             |
+| hyr na            | hirna            | adv  | after that          |
+| gescreven         | schriven         | v    | write               |
+| beghyn            | begin            | n    | beginning           |
+| desses            | desse            |      |                     |
+| bokes.            | bok              | n    | book                |
+| wo                | wo               | adv  | where               |
+| neghen            | negen            | num  | nine                |
+| orden             | orde             | m/f  | order               |
+| engele            | engel            | m    | angel               |
+| hemmele           | hemmel           | m    | heaven              |
+| islyk             | islik            | pron | any, all            |
+| wo aff            | wo af            | prep | where (from)        |
+| denet.            | denen            | v    | serve               |
+|-------------------+------------------+------+---------------------|
+** Start here  
+| konde             |                  |      |                     |
+| konst             |                  |      |                     |
+| astronomyen,      |                  |      |                     |
+| firmamenten,      |                  |      |                     |
+| planeten,         |                  |      |                     |
+| teykenen,         |                  |      |                     |
+| sternen,          |                  |      |                     |
+| lepe              |                  |      |                     |
+| stonden,          |                  |      |                     |
+| ponten            |                  |      |                     |
+| vort              |                  |      |                     |
+| an                |                  |      |                     |
+| to                |                  |      |                     |
+| tellende          |                  |      |                     |
+| gheistlyk         |                  |      |                     |
+| lichamlyk         |                  |      |                     |
+| ok                |                  |      |                     |
+|                   |                  |      |                     |
+|                   |                  |      |                     |
+| wetenheit         |                  |      |                     |
+|                   |                  |      |                     |
+|                   |                  |      |                     |
+| hevil             |                  |      |                     |
+| upp               |                  |      |                     |
+|                   |                  |      |                     |
+| vorbenomeden      |                  |      |                     |
+|                   |                  |      |                     |
+|                   |                  |      |                     |
+|                   |                  |      |                     |
+| mechtigh          |                  |      |                     |
+|                   |                  |      |                     |
+|                   |                  |      |                     |
+|                   |                  |      |                     |
+|                   |                  |      |                     |
+|                   |                  |      |                     |
+|                   |                  |      |                     |
+| liet              |                  |      |                     |
+| soken             |                  |      |                     |
+|                   |                  |      |                     |
+| eer               |                  |      |                     |
+|                   |                  |      |                     |
+| bekert            |                  |      |                     |
+|                   |                  |      |                     |
+| umme              |                  |      |                     |
+| profyt,           |                  |      |                     |
+|                   |                  |      |                     |
+|                   |                  |      |                     |
+|                   |                  |      |                     |
+|                   |                  |      |                     |
+| doende,           |                  |      |                     |
+| also              |                  |      |                     |
+| ghi               |                  |      |                     |
+| alle              |                  |      |                     |
+| horen             |                  |      |                     |
+| scholen           |                  |      |                     |
+| hyr               |                  |      |                     |
+| na                |                  |      |                     |
+| in                |                  |      |                     |
+| dessen            |                  |      |                     |
+| boke.             |                  |      |                     |
+| Konnigh           |                  |      |                     |
+| Buctus            |                  |      |                     |
+| vragede           |                  |      |                     |
+| dessen            |                  |      |                     |
+| wysen             |                  |      |                     |
+| philosophus       |                  |      |                     |
+| Syderack          |                  |      |                     |
+| vele              |                  |      |                     |
+| vraghe,           |                  |      |                     |
+| de                |                  |      |                     |
+| de                |                  |      |                     |
+| hegherde          |                  |      |                     |
+| tho               |                  |      |                     |
+| wetende,          |                  |      |                     |
+| de                |                  |      |                     |
+| eme               |                  |      |                     |
+| nemant            |                  |      |                     |
+| berichtende       |                  |      |                     |
+| konde.            |                  |      |                     |
+| Men               |                  |      |                     |
+| Syderack          |                  |      |                     |
+| berichtede        |                  |      |                     |
+| eme               |                  |      |                     |
+| to                |                  |      |                     |
+| rechte            |                  |      |                     |
+| unde              |                  |      |                     |
+| bescheydeliken    |                  |      |                     |
+| van               |                  |      |                     |
+| alle              |                  |      |                     |
+| dem,              |                  |      |                     |
+| dat               |                  |      |                     |
+| he                |                  |      |                     |
+| eme               |                  |      |                     |
+| vraghede.         |                  |      |                     |
+| Dat               |                  |      |                     |
+| behagede          |                  |      |                     |
+| dem               |                  |      |                     |
+| konnighe          |                  |      |                     |
+| wol               |                  |      |                     |
+| unde              |                  |      |                     |
+| de                |                  |      |                     |
+| konnigh           |                  |      |                     |
+| liet              |                  |      |                     |
+| maken             |                  |      |                     |
+| eyn               |                  |      |                     |
+| bock              |                  |      |                     |
+| van               |                  |      |                     |
+| alle              |                  |      |                     |
+| den               |                  |      |                     |
+| vraghen           |                  |      |                     |
+| vnde              |                  |      |                     |
+| gaff              |                  |      |                     |
+| dem               |                  |      |                     |
+| boke              |                  |      |                     |
+| den               |                  |      |                     |
+| namen             |                  |      |                     |
+| Syderack.         |                  |      |                     |
+| Unde              |                  |      |                     |
+| dat               |                  |      |                     |
+| sulve             |                  |      |                     |
+| boeck             |                  |      |                     |
+| gink              |                  |      |                     |
+| na                |                  |      |                     |
+| konnigh           |                  |      |                     |
+| Boctus            |                  |      |                     |
+| dode              |                  |      |                     |
+| van               |                  |      |                     |
+| den               |                  |      |                     |
+| eynen             |                  |      |                     |
+| unde              |                  |      |                     |
+| to                |                  |      |                     |
+| den               |                  |      |                     |
+| anderen           |                  |      |                     |
+| unde              |                  |      |                     |
+| quam              |                  |      |                     |
+| to                |                  |      |                     |
+| lesten            |                  |      |                     |
+| onder             |                  |      |                     |
+| de                |                  |      |                     |
+| macht             |                  |      |                     |
+| eynes             |                  |      |                     |
+| mannes            |                  |      |                     |
+| van               |                  |      |                     |
+| Caldea            |                  |      |                     |
+| na                |                  |      |                     |
+| der               |                  |      |                     |
+| tyt,              |                  |      |                     |
+| vormiddelst       |                  |      |                     |
+| dem               |                  |      |                     |
+| rade              |                  |      |                     |
+| des               |                  |      |                     |
+| duvels,           |                  |      |                     |
+| de                |                  |      |                     |
+| dit               |                  |      |                     |
+| bock              |                  |      |                     |
+| vorbernen         |                  |      |                     |
+| wolde.            |                  |      |                     |
+| Men               |                  |      |                     |
+| god               |                  |      |                     |
+| de                |                  |      |                     |
+| en                |                  |      |                     |
+| wolde             |                  |      |                     |
+| des               |                  |      |                     |
+| nicht             |                  |      |                     |
+| steden,           |                  |      |                     |
+| dat               |                  |      |                     |
+| dat               |                  |      |                     |
+| boeck             |                  |      |                     |
+| worde             |                  |      |                     |
+| verloren          |                  |      |                     |
+| node              |                  |      |                     |
+| dar               |                  |      |                     |
+| na                |                  |      |                     |
+| so                |                  |      |                     |
+| quam              |                  |      |                     |
+| dit               |                  |      |                     |
+| boeck             |                  |      |                     |
+| in                |                  |      |                     |
+| de                |                  |      |                     |
+| hande             |                  |      |                     |
+| eynes             |                  |      |                     |
+| konnighes,        |                  |      |                     |
+| de                |                  |      |                     |
+| hete              |                  |      |                     |
+| Madyan.3          |                  |      |                     |
+| Unde              |                  |      |                     |
+| van               |                  |      |                     |
+| dem               |                  |      |                     |
+| so                |                  |      |                     |
+| quam              |                  |      |                     |
+| dat               |                  |      |                     |
+| in                |                  |      |                     |
+| de                |                  |      |                     |
+| hande             |                  |      |                     |
+| eynes             |                  |      |                     |
+| uthsetischen      |                  |      |                     |
+| mannes,           |                  |      |                     |
+| de                |                  |      |                     |
+| hete              |                  |      |                     |
+| Naaman            |                  |      |                     |
+| patriarche        |                  |      |                     |
+| van               |                  |      |                     |
+| den               |                  |      |                     |
+| ridderen          |                  |      |                     |
+| des               |                  |      |                     |
+| kon-              |                  |      |                     |
+| nighes            |                  |      |                     |
+| van               |                  |      |                     |
+| Syrien4           |                  |      |                     |
+| gheboren.         |                  |      |                     |
+| Unde              |                  |      |                     |
+| do                |                  |      |                     |
+| he                |                  |      |                     |
+| dat               |                  |      |                     |
+| hadde,            |                  |      |                     |
+| do                |                  |      |                     |
+| hilt              |                  |      |                     |
+| he                |                  |      |                     |
+| dat               |                  |      |                     |
+| sere              |                  |      |                     |
+| werdichliken.     |                  |      |                     |
+| Unde              |                  |      |                     |
+| desse             |                  |      |                     |
+| uthsetesche       |                  |      |                     |
+| ghenas            |                  |      |                     |
+| van               |                  |      |                     |
+| synen             |                  |      |                     |
+| spittale          |                  |      |                     |
+| in                |                  |      |                     |
+| der               |                  |      |                     |
+| Jordane.          |                  |      |                     |
+| Dar               |                  |      |                     |
+| na                |                  |      |                     |
+| in                |                  |      |                     |
+| langhen           |                  |      |                     |
+| stonden           |                  |      |                     |
+| so                |                  |      |                     |
+| en                |                  |      |                     |
+| wart              |                  |      |                     |
+| dit               |                  |      |                     |
+| boeck             |                  |      |                     |
+| ok                |                  |      |                     |
+| nicht             |                  |      |                     |
+| wedder            |                  |      |                     |
+| gheopenbaert      |                  |      |                     |
+| eer               |                  |      |                     |
+| der               |                  |      |                     |
+| to                |                  |      |                     |
+| kumpst            |                  |      |                     |
+| unses             |                  |      |                     |
+| leven             |                  |      |                     |
+| Heren             |                  |      |                     |
+| Ihesu             |                  |      |                     |
+| Cristi.           |                  |      |                     |
+| Darumme           |                  |      |                     |
+| dat               |                  |      |                     |
+| He                |                  |      |                     |
+| nicht             |                  |      |                     |
+| en                |                  |      |                     |
+| wolde,            |                  |      |                     |
+| dat               |                  |      |                     |
+| dit               |                  |      |                     |
+| boeck             |                  |      |                     |
+| scholde           |                  |      |                     |
+| vorloren          |                  |      |                     |
+| blyven,           |                  |      |                     |
+| so                |                  |      |                     |
+| wart              |                  |      |                     |
+| dat               |                  |      |                     |
+| wedder            |                  |      |                     |
+| gheopenbaret      |                  |      |                     |
+| unde              |                  |      |                     |
+| quam              |                  |      |                     |
+| in                |                  |      |                     |
+| de                |                  |      |                     |
+| macht             |                  |      |                     |
+| eynes             |                  |      |                     |
+| greven,           |                  |      |                     |
+| de                |                  |      |                     |
+| ertzebisschopp    |                  |      |                     |
+| was               |                  |      |                     |
+| to                |                  |      |                     |
+| Sabach,5          |                  |      |                     |
+| dat               |                  |      |                     |
+| eyne              |                  |      |                     |
+| wyle              |                  |      |                     |
+| in                |                  |      |                     |
+| den               |                  |      |                     |
+| olden             |                  |      |                     |
+| tyden             |                  |      |                     |
+| heet              |                  |      |                     |
+| Samarya.          |                  |      |                     |
+| Desse             |                  |      |                     |
+| de                |                  |      |                     |
+| hadde             |                  |      |                     |
+| eynen             |                  |      |                     |
+| klerck,           |                  |      |                     |
+| de                |                  |      |                     |
+| hete              |                  |      |                     |
+| Dimittere6        |                  |      |                     |
+| unde              |                  |      |                     |
+| was               |                  |      |                     |
+| cristen           |                  |      |                     |
+| unde              |                  |      |                     |
+| wart              |                  |      |                     |
+| ghesant           |                  |      |                     |
+| in                |                  |      |                     |
+| Yspanyen          |                  |      |                     |
+| umme              |                  |      |                     |
+| to                |                  |      |                     |
+| prediken          |                  |      |                     |
+| den               |                  |      |                     |
+| hillighen         |                  |      |                     |
+| cristen           |                  |      |                     |
+| gheloven          |                  |      |                     |
+| unses             |                  |      |                     |
+| leven             |                  |      |                     |
+| Heren             |                  |      |                     |
+| Ihesu             |                  |      |                     |
+| Cristi.           |                  |      |                     |
+| Unde              |                  |      |                     |
+| de                |                  |      |                     |
+| droch             |                  |      |                     |
+| dat               |                  |      |                     |
+| boeck             |                  |      |                     |
+| myd               |                  |      |                     |
+| syk               |                  |      |                     |
+| unde              |                  |      |                     |
+| wart              |                  |      |                     |
+| ghemartelt        |                  |      |                     |
+| to                |                  |      |                     |
+| Tollen.7          |                  |      |                     |
+| Unde              |                  |      |                     |
+| do                |                  |      |                     |
+| de                |                  |      |                     |
+| priesterschopp    |                  |      |                     |
+| dar               |                  |      |                     |
+| to                |                  |      |                     |
+| quam,             |                  |      |                     |
+| do                |                  |      |                     |
+| se                |                  |      |                     |
+| dat               |                  |      |                     |
+| von-              |                  |      |                     |
+| den,              |                  |      |                     |
+| do                |                  |      |                     |
+| satten            |                  |      |                     |
+| se                |                  |      |                     |
+| dat               |                  |      |                     |
+| uth               |                  |      |                     |
+| dem               |                  |      |                     |
+| Grekeschen        |                  |      |                     |
+| in                |                  |      |                     |
+| Latyne.           |                  |      |                     |
+| Do                |                  |      |                     |
+| hadde             |                  |      |                     |
+| de                |                  |      |                     |
+| konnigh           |                  |      |                     |
+| van               |                  |      |                     |
+| Yspanyen          |                  |      |                     |
+| to                |                  |      |                     |
+| den               |                  |      |                     |
+| sulven            |                  |      |                     |
+| tyden             |                  |      |                     |
+| horen             |                  |      |                     |
+| segghen           |                  |      |                     |
+| van               |                  |      |                     |
+| desse(n)          |                  |      |                     |
+| bocke.            |                  |      |                     |
+| He                |                  |      |                     |
+| ghewan            |                  |      |                     |
+| dat               |                  |      |                     |
+| boeck             |                  |      |                     |
+| unde              |                  |      |                     |
+| hilt              |                  |      |                     |
+| dat               |                  |      |                     |
+| langhe            |                  |      |                     |
+| in                |                  |      |                     |
+| groter            |                  |      |                     |
+| werdicheit        |                  |      |                     |
+| umme              |                  |      |                     |
+| der               |                  |      |                     |
+| schonen           |                  |      |                     |
+| vraghen           |                  |      |                     |
+| willen,           |                  |      |                     |
+| de                |                  |      |                     |
+| he                |                  |      |                     |
+| hyr               |                  |      |                     |
+| inne              |                  |      |                     |
+| vant.             |                  |      |                     |
+|-------------------+------------------+------+---------------------|
+
+* Full Glossary
+#+ATTR_HTML: :border 2 :rules all :frame border
+|------------------+----------+---------------------------|
+| Lemma            | POS      | Definition                |
+|------------------+----------+---------------------------|
+| al               | adj/pron | all, entire, whole        |
+| almechticheit    | f        | almightiness              |
+| also             | adv      | thus, so, in this way     |
+| an               | prep     | at, in, by, to            |
+| anbegin          | m/n      | beginning                 |
+| ander            | pron     | other                     |
+| anwiser          | m        | teacher                   |
+| arbeiden         | v        | work                      |
+| barmherticheit   | f        | mercy, compassion         |
+| begin            | n        | beginning                 |
+| beginnen         | v        | begin                     |
+| beholden         | v        | keep, retain              |
+| bekeren          | v        | convert                   |
+| benedien         | v        | bless                     |
+| beneding         | f        | blessing                  |
+| bewaren          | v        | preserve: keep safe       |
+| bleven           | v        | become, remain, be        |
+| blot             | n        | blood                     |
+| bok              | n        | book                      |
+| by               | prep     | by, because of            |
+| creature         | f        | creature                  |
+| dach             | m        | day                       |
+| darane           | adv      | in that manner            |
+| dat              | adv      | that                      |
+| de               | dat      | the                       |
+| denen            | v        | serve                     |
+| desse            | pron     | this                      |
+| dink             | n        | thing                     |
+| do               | adv      | when, then                |
+| dorch            | prep     | through                   |
+| drevaldicheit    | f        | Trinity                   |
+| dur              | adj      | precious, expensive, dear |
+| e                | f        | law                       |
+| en               | num      | one, a                    |
+| ende             | m/n      | end                       |
+| engel            | m        | angel                     |
+| entbreken        | v        | lack                      |
+| er(er)           | poss     | their                     |
+| ere              | f        | honor                     |
+| ertrike          | f        | Kingdom of Earth          |
+| eyn (-->en)      |          |                           |
+| forme            | f        | form                      |
+| gebot            | n        | commandment               |
+| gene             | pron     | the one                   |
+| geslechte        | n        | family, lineage           |
+| geven            | v        | give                      |
+| gewar            | adj      | aware                     |
+| gewesen (-->syn) |          |                           |
+| gnade            | f        | mercy, grace              |
+| God              | m        | God                       |
+| grot             | adj      | great, large              |
+| he               | pron     | he                        |
+| hebben           | v        | have                      |
+| hebben           | v        | have                      |
+| helle            | f        | Hell                      |
+| hemmel           | m        | heaven                    |
+| hemmelrike       | n        | Kingdom of Heaven         |
+| here             | m        | lord                      |
+| heten            | v        | be called                 |
+| hillich          | adj      | holy                      |
+| hirna            | adv      | after that                |
+| holden           | v        | hold                      |
+| holden           | v        | hold                      |
+| in               | prep     | in                        |
+| islik            | pron     | any, all                  |
+| Japhet           | prop     | Japheth                   |
+| jummermeer       | adv      | evermore                  |
+| junger           | m        | disciple                  |
+| komen            | v        | come                      |
+| koning           | m        | king                      |
+| leden            | v        | lead                      |
+| leve             | f        | love                      |
+| leven            | v        | live                      |
+| lude             | n.pl.    | people                    |
+| mennichvoldich   | adj      | manifold, numerous        |
+| mennichvoldigen  | v        | multiply                  |
+| mid, mit         | prep     | with                      |
+| mogen            | v        | can, be able              |
+| Moyses           | prop     | Moses                     |
+| na               | prep     | after, according to       |
+| na               | adv      | afterwards                |
+| negen            | num      | nine                      |
+| nicht            | adv      | not                       |
+| Noe              |          |                           |
+| nummermeer       | adv      | nevermore                 |
+| openbar          | adj      | obvious, revealed         |
+| openbaren        | v        | reveal                    |
+| orde             | m/f      | order                     |
+| ordel            | n/f      | judgement                 |
+| over             | prep     | over, above               |
+| over treden      | v        | overstep, transgress      |
+| partriarche      | m        | patriarch                 |
+| redelicheit      | f        | rationality, reason       |
+| schen            | v        | happen                    |
+| schollen         | v        | shall                     |
+| schriven         | v        | write                     |
+| se               | prep     | they                      |
+| selschop         | f        | company, community        |
+| setten           | v        | set, put                  |
+| sik              | pron     | (reflexive pronoun)       |
+| slechte          | n        | family, lineage           |
+| sone             | m        | son                       |
+| storten          | v        | pour, let fall            |
+| sulv             | pron     | self                      |
+| sunder           | prep     | without                   |
+| Sydrak           | prop     | Sidrach                   |
+| syn              | poss     | his                       |
+| syn              | v        | be                        |
+| tid              | m/f      | time                      |
+| to               | prep     | to, in, at                |
+| treden           | v        | step                      |
+| umme             | conj     | because of, in order to   |
+| unde             | conj     | and                       |
+| ungelovich       | adj      | unbelieving               |
+| uns              | poss     | our                       |
+| up               | prep     | up, on                    |
+| upstandinge      | f        | resurrection              |
+| vader            | m        | father                    |
+| van              | prep     | of, from                  |
+| volk             | n        | folk, people              |
+| vorkundigen      | v        | proclaim, report          |
+| vormeren         | v        | increase                  |
+| vormiddelst      | prep     | amidst, amongst           |
+| vorsichticheit   | f        | foresight                 |
+| vorsmaden        | v        | reject, refuse            |
+| vorvullen        | v        | complete                  |
+| vorwilkoren      | v        | predestine                |
+| wanderen         | v        | wander                    |
+| was (--syn)      |          |                           |
+| wassen           | v        | grow                      |
+| water vlot       | f        | flood                     |
+| welk             | pron     | which                     |
+| wellen           | v        | want                      |
+| wente (-->wante) |          |                           |
+| werden           | v        | become                    |
+| werden           | v        | become                    |
+| werden           |          |                           |
+| werdigen         | v        | honor, appreciate         |
+| weren (-->syn)   |          |                           |
+| werk             | n        | work                      |
+| werlt            | f        | world                     |
+| wesent           | n        | creature, being           |
+| weten            | v        | know                      |
+| wif              | n        | wife                      |
+| wilkoren         | v        | choose, elect             |
+| wille            | m        | will                      |
+| wisen            | v        | show                      |
+| wisheit          | f        | wisdom                    |
+| wo               | adv      | where                     |
+| wo               | adv      | how                       |
+| wo               | adv      | where                     |
+| wo af            | prep     | where (from)              |
+| wol              | adv      | well, nevertheless        |
+| wonen            | v        | live                      |
+| wor              | conj     | where, when               |
+| worbi            | conj     | whereby                   |
+|------------------+----------+---------------------------|
