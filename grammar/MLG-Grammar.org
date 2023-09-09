@@ -1,0 +1,209 @@
+#+TITLE: Middle Low German Grammar
+
+* Dialects
+** Westphalian
+Between Weser and Rhine. Münster, Paderborn, Dortmund, Bielefeld, Osnabrück.
+
+Shows many orthographic similarities to Ripuarian (Cologne).
+
+- Phonology :: Breaking of /i, e/ > /ie/ can be seen in e.g. /tielen/ (Nd. Korr. 11, 13), /miede gerieden/ (Dortmund 1390), /gieven/ (Korbach 1394). See Lasch pg. 35 (§39 II). 
+
+- Orthography :: Influence from Low Franconian (Dutch) in use of <e, i> to mark length (e.g. <oi> for /ō/)
+
+- Morphology :: Mix of (original) /-et/ with (borrowed) /-en/ in plural verbs. Mix of /ûs/ and /uns/. Frequent use of /hebbt/ for (inf?!) /hebben/. Frequent analogical use of plural stem-vowel in the singular (/wort/ from /worden/; /du drovest/ instead of /darvest/).
+
+** Eastphalian
+From Weser to Elbe. Hannover, Hildesheim, Braunschweig, Goslar, Göttingen; Magdeburg, Halle.
+
+** North Low Saxon
+Along the coast.
+- Phonology :: lengthened /e, i/ > /ä/, spelled <e> (pointing to a dipthong?). In printed texts from the 16th century (esp. from Lübeck) it can be written <ë> as in /frëde, schëpe, rëkenshop, ëm/ (Lasch §39 II). 
+The ending  /-er/ > /-ar/ (§76)
+  /-ald-/ > /-old-/ (93)
+  Nominal ending /-schop/
+  /gâns/ > /gôs/
+  Pronouns /mî dî jû/ are used for both accusative and dative. 
+  - /desse/ (this)
+  - /wol/ or /we/ (who)
+  - /willen/ (want)
+  - /van/ (from; 38,2)
+*** East Frisian and Oldenburgish
+broadly speaking, this subdiakect stretches from the mouth of the Ems (essentially the border to Groningen) until the Weser (Bremerhaven). It combines the East Frisian, Oldenburg and Emsland areas and borders Westphalian to the south.
+
+Charters from the area are found as early as 1379, legal texts from the second half of the 15th cent. From 1464 Low German was also the courtly language of East Frisia, even though Frisian was still spoken. Frisian influence is more prevalent in legal texts than in charters (although one charter from 1438 does have /na asigheboke vnd lantrechte/ in reference to Frisian law from the /āsega/).
+*** Nordalbingian
+*** East Elbian
+
+
+
+** (South) Brandenburgish
+
+** Dialect diagnostics
+- -en/-et :: Plural ending of verbs. Dialects west of the Elbe and up to Eastern Holstein and Western Mecklenburg still have /-et/ today. /-et/ was also the more common ending in the 13th and 14th centuries, though by the 15th century the ending /-en/ dominates. See Lasch §419.
+- s(ch)al :: Forms without /k/ are Westphalian (as in Dutch), though in the east of the region (Bielefeld) both forms are found. In Münster you can find /schal/ because of a written norm. In the earliest period /s/ can be found having spread to the entire area, later still in Oostseeprovinzen and Danzig. See Lasch §443.
+
+
+* Morphology
+** Pronouns
+*** Personal
+|----+-------------------+-------------------+-------------------|
+|    | *MASC*            | *FEM*             | *NEUT*            |
+|----+-------------------+-------------------+-------------------|
+| sg |                   |                   |                   |
+|----+-------------------+-------------------+-------------------|
+|    | hê, hî, hie       | sê, si(e), sü̂     | it, et            |
+|    | en(e), on(e)      | sê, si(e), sü̂     | it, et            |
+|    | eme, ome, en      | er(e), erer, örer | em(e), om(e), en  |
+|    | is, es, sîn(er)   | er(e), erer, örer | is, es            |
+|----+-------------------+-------------------+-------------------|
+| pl |                   |                   |                   |
+|----+-------------------+-------------------+-------------------|
+|    | sê, si(e)         | sê, si(e)         | sê, si(e)         |
+|    | sê, si(e)         | sê, si(e)         | sê, si(e)         |
+|    | em, en, öm, jüm   | em, en, öm, jüm   | em, en, öm, jüm   |
+|    | er(e), erer, örer | er(e), erer, örer | er(e), erer, örer |
+|----+-------------------+-------------------+-------------------|
+*** Demonstrative
+|----+-------------+---------------+-------------|
+|    | *MASC*      | *FEM*         | *NEUT*      |
+|----+-------------+---------------+-------------|
+| sg |             |               |             |
+|----+-------------+---------------+-------------|
+|    | dê, di(e)   | dü̂, dê, di(e) | dat         |
+|    | den(e)      | dü̂, dê, di(e) | dat         |
+|    | dem(e), den | der(e)        | dem(e), den |
+|    | des         | der(e)        | des         |
+|----+-------------+---------------+-------------|
+| pl |             |               |             |
+|----+-------------+---------------+-------------|
+|    | dê, di(e)   | dê, di(e)     | dê, di(e)   |
+|    | dê, di(e)   | dê, di(e)     | dê, di(e)   |
+|    | den         | den           | den         |
+|    | der         | der           | der         |
+|----+-------------+---------------+-------------|
+** Nouns and adjectives
+*** Masculine
+|-----+----------+----------+------------------+-----------+----------|
+|     | /a/-stem | /i/-stem | /i/-stem (short) | /ja/-stem | /u/-stem |
+|-----+----------+----------+------------------+-----------+----------|
+| nom | dach     | gast     | bröke            | herde     | sone     |
+| acc | dach     | gast     | bröke            | herde     | sone     |
+| dat | dage     | gaste    | bröke            | herde     | sone     |
+| gen | dages    | gastes   | brökes           | herdes    | sones    |
+|-----+----------+----------+------------------+-----------+----------|
+| nom | dage     | geste    | bröke            | herde(s)  | söne     |
+| acc | dage     | geste    | bröke            | herde(s)  | söne     |
+| dat | dagen    | gesten   | bröken           | herden    | sönen    |
+| gen | dage     | geste    | bröke            | herde     | söne     |
+|-----+----------+----------+------------------+-----------+----------|
+
+*** Neuter
+|-----+--------------+-------------------+-----------+----------------|
+|     | /a/-stem     | /s/-stem          | /ja/-stem | /wa/-stem      |
+|-----+--------------+-------------------+-----------+----------------|
+| nom | wort         | lam               | bedde     | mele           |
+| acc | wort         | lam               | bedde     | mele           |
+| dat | worde        | lamme             | bedde     | mele           |
+| gen | wordes       | lammes            | beddes    | meles          |
+|-----+--------------+-------------------+-----------+----------------|
+| nom | wort (worde) | lammer(e), lemmer | bedde     | (as /a/-stems) |
+| acc | wort (worde) | lammer(e), lemmer | bedde     |                |
+| dat | worden       | lammer(e)n        | bedden    |                |
+| gen | worde        | lammer(e)         | bedde     |                |
+|-----+--------------+-------------------+-----------+----------------|
+
+- mele :: /smer, hor, knê/
+
+*** Feminine
+|-----+----------+------------|
+|     | /ô/-stem | /i/-stem   |
+|-----+----------+------------|
+| nom | wîse     | hût        |
+| acc | wîse     | hût        |
+| dat | wîse(n)  | hût (hûde) |
+| gen | wîse(n)  | hût        |
+|-----+----------+------------|
+| nom | wîse(n)  | hü̂de       |
+| acc | wîse(n)  | hü̂de       |
+| dat | wîsen    | hü̂den      |
+| gen | wîsen    | hü̂de       |
+|-----+----------+------------|
+
+*** Weak declension (/n/-stems)
+|-------+---------+----------+--------|
+|       | masc    | fem      | neut   |
+|-------+---------+----------+--------|
+| nom   | vörste  | tunge    | herte  |
+| acc   | vörsten | tunge(n) | herte  |
+| dat   | vörsten | tungen   | herten |
+| gen   | vörsten | tungen   | herten |
+|-------+---------+----------+--------|
+| (all) | vörsten | tungen   | herten |
+|-------+---------+----------+--------|
+
+*** Adjectives
+|-----+---------------------+---------------+---------------------+-------------------------|
+|     | masc                | fem           | neut                | strong                  |
+|-----+---------------------+---------------+---------------------+-------------------------|
+| nom | blint, blinder      | blint, blinde | blint               | blinde                  |
+| acc | blinden             | blinde        | blint               | blinden (/neut/ blinde) |
+| dat | blindem(e), blinden | blinder(e)    | blindem(e), blinden | blinden                 |
+| gen | blindes             | blinder(e)    | blindes             | blinden                 |
+|-----+---------------------+---------------+---------------------+-------------------------|
+| nom | blinde              | blinde        | blinde              | blinden                 |
+| acc | blinde              | blinde        | blinde              | blinden                 |
+| dat | blinden             | blinden       | blinden             | blinden                 |
+| gen | blinder(e)          | blinder(e)    | blinder(e)          | blinden                 |
+|-----+---------------------+---------------+---------------------+-------------------------|
+- lam :: /ey, hôn, kalf, rint/. Spread of /-er-/ plurals (from 13th c.) e.g. /lant-lendere/ (typically /lant-lande/). 
+** Verbs
+*** Present
+Note strong and weak have same endings
+**** Paradigms
+|----+-------------------+--------+---------------+--------+--------------|
+|    | *INDICATIVE*      |        | *SUBJUNCTIVE* |        | *IMPERATIVE* |
+|    | PRES              | PRET   | PRES          | PRET   |              |
+|----+-------------------+--------+---------------+--------+--------------|
+| SG |                   |        |               |        |              |
+|----+-------------------+--------+---------------+--------+--------------|
+|    | geve              | gav    | geve          | gêve   |              |
+|    | gifst, gevest     | gêvest | gevest        | gêvest | gif, gef     |
+|    | gift, geft, gevet | gaf    | geve          | gêve   |              |
+|----+-------------------+--------+---------------+--------+--------------|
+| PL |                   |        |               |        |              |
+|----+-------------------+--------+---------------+--------+--------------|
+|    | gevet, geven      | gêven  | geven         | gêven  |     gevet    |
+|----+-------------------+--------+---------------+--------+--------------|
+
+cf. Frisian /je/-verbs
+|----+---------------+----------+---------------+----------+-------------|
+|    | *INDICATIVE*  |          | *SUBJUNCTIVE* |          | *IMPERATIVE |
+|    | PRES          | PRET     | PRES          | PRET     |             |
+|----+---------------+----------+---------------+----------+-------------|
+| SG |               |          |               |          |             |
+|----+---------------+----------+---------------+----------+-------------|
+|    | make          | makede   | make          | makede   |             |
+|    | makest        | makedest | makest        | makedest | make        |
+|    | maket         | makede   | make          | makede   |             |
+|----+---------------+----------+---------------+----------+-------------|
+| PL |               |          |               |          |             |
+|----+---------------+----------+---------------+----------+-------------|
+|    | maket, maken  | makeden  | maken         | makeden  | maket       |
+|----+---------------+----------+---------------+----------+-------------|
+
+
+**** Comments
+***** PRESENT 
+1. formed with /-e/ (from Old Saxon /-u/, /hilpu/), including wk.ii. (/on-/) verbs (<< OSax. /-n/, /mahlon/). In the monosyllabic verbs /stâ gâ dô bin/ the ending /-n/ can often appear in *western* texts and occasionally other areas. Analogical use of plural stem-vowel in str.II (Old Saxon /biudu, biudis, biudid/, pl. /biodad/ > /bêde, büdest, büdet/, pl. /bêdet/)
+
+2. *Westphalian* has the ending /-s/ (/du heves/).
+
+3. 
+
+Both 2. and 3. sg. show umlaut where possible; variation also found (/draget/ next to /drecht/).
+
+- PLURAL :: Merger of all three persons. *West* of the Elbe and up to Eastern Holstein, Western Mecklenburg, the form is /-et/, while *eastern* dialects have /-en/. During *13th* and *14th c.* the form /-et/ dominates, even in Mecklenburg; Brandenburg still /-en/, Visby both forms.
+*** Ablaut series
+
+|
+| I | î - ai - i - i | î - ê - i - i | î - ê -  
