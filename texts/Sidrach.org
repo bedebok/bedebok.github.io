@@ -18,6 +18,8 @@ A fragment of the Low German /Sidrach/ is found in the manuscript Copenhagen, De
 
 The Low German translation of /Sidrach/ was [[https://archive.org/details/dasbuchsidrachn00jellgoog/mode/2up][edited in 1904 by H. F. Jellinghaus]].
 
+[[https://bedebok.github.io/texts/MLG-Sidrach.pdf][A new edition of Jellinghaus is currently in progress here.]]
+
 * Sydrak (Danish)
 Copenhagen, Det Kgl. Bibliotek, NKS 236 is a fifteenth-century paper manuscript containing the /Book of Sidrach/ in Danish. As with the fragmentary manuscript NKS 285 fol., this manuscript belonged to P. F. Suhm.
 

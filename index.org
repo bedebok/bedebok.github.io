@@ -5,6 +5,9 @@ This is a resource webpage for the project /When Danes Prayed in German/.
 * Texts in Middle Low German and Old Danish
 - [[https://bedebok.github.io/texts/Sidrach.html][The Book of Sidrach]]
 
+* Grammar resources
+- [[https://bedebok.github.io/grammar/MLG-Grammar.html][A Grammar of Middle Low German (in progress)]]
+- [[https://bedebok.github.io/grammar/glossary.html][A Glossary of Middle Low German (in progress)]]
 * Other internet resources
 - [[https://www.koeblergerhard.de/mndwbhin.html][Köbler, Gerhard, Mittelniederdeutsches Wörterbuch, 3. A. 2014]]
 - [[http://medingen.seh.ox.ac.uk][Medingen Manuscripts blog]] (with glossary)
