@@ -15,6 +15,7 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | anwiser          | m        | teacher                    |
 | arbeiden         | v        | work                       |
 | barmherticheit   | f        | mercy, compassion          |
+| beger            | n/f      | desire                     |
 | begeren          | v        | covet, desire              |
 | begin            | n        | beginning                  |
 | beginnen         | v        | begin                      |
@@ -25,11 +26,16 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | beneding         | f        | blessing                   |
 | beren            | v        | bear                       |
 | berichten        | v        | report, inform             |
+| berichten        | v        | inform                     |
 | bescheideliken   | adj      | prudent                    |
 | bewaren          | v        | preserve: keep safe        |
+| bidden           | v        | ask, pray                  |
+| bidden           | v        | ask, pray                  |
 | bleven           | v        | become, remain, be         |
 | blot             | n        | blood                      |
+| bode             | m        | messenger                  |
 | bok              | n        | book                       |
+| broder           | m        | brother, friar             |
 | by               | prep     | by, because of             |
 | creature         | f        | creature                   |
 | dach             | m        | day                        |
@@ -38,6 +44,7 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | dat              | adv      | that                       |
 | de               | dat      | the                        |
 | denen            | v        | serve                      |
+| denken           | v        | think                      |
 | desse            | pron     | this                       |
 | dink             | n        | thing                      |
 | do               | adv      | when, then                 |
@@ -53,12 +60,14 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | ende             | m/n      | end                        |
 | ene wile         | adv      | for a time                 |
 | engel            | m        | angel                      |
+| entbeden         | v        | send for, summon           |
 | entbreken        | v        | lack                       |
 | er               | adv      | before                     |
 | er(er)           | poss     | their                      |
 | ere              | f        | honor                      |
 | ersebischop      | m        | archbishop                 |
 | ertrike          | f        | Kingdom of Earth           |
+| exempeler        | m        | exemplar                   |
 | eyn (-->en)      |          |                            |
 | forme            | f        | form                       |
 | gan              | v        | go                         |
@@ -87,6 +96,7 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | he               | pron     | he                         |
 | hebben           | v        | have                       |
 | helle            | f        | Hell                       |
+| hemelik          | adj      | secretly                   |
 | hemmel           | m        | heaven                     |
 | hemmelrike       | n        | Kingdom of Heaven          |
 | here             | m        | lord                       |
@@ -98,14 +108,17 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | islik            | pron     | any, all                   |
 | jummermeer       | adv      | evermore                   |
 | junger           | m        | disciple                   |
+| keiser           | m        | emperor                    |
 | klerk            | m        | cleric                     |
 | komen            | v        | come                       |
 | koning           | m        | king                       |
+| krigen           | v        | get, receive               |
 | kristen          | adj      | Christian                  |
 | lange            | adv      | long                       |
 | laten            | v        | let                        |
 | latin            | adj/n    | Latin                      |
 | leden            | v        | lead                       |
+| lesen            | v        | read                       |
 | leve             | f        | love                       |
 | leven            | v        | live                       |
 | lichamlik        | adj      | bodily                     |
@@ -135,6 +148,8 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | ordel            | n/f      | judgement                  |
 | over             | prep     | over, above                |
 | over treden      | v        | overstep, transgress       |
+| overmate         | adj      | excessive                  |
+| overmate         | f        | excess                     |
 | partriarche      | m        | patriarch                  |
 | philosophus      | m        | philosopher                |
 | prediken         | v        | preach                     |
@@ -143,6 +158,7 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | rad              | m        | advice                     |
 | redelicheit      | f        | rationality, reason        |
 | ridder           | m        | knight                     |
+| saracenes        | adj/n    | Arabic                     |
 | schen            | v        | happen                     |
 | schollen         | v        | shall                      |
 | schon            | adj      | beautiful                  |
@@ -170,6 +186,7 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | to rechte        | adv      | rightly                    |
 | tokumpst         | f        | coming                     |
 | treden           | v        | step                       |
+| tresel           | m        | treasury                   |
 | umme             | conj     | because of, in order to    |
 | umme             | prep     | about                      |
 | unde             | conj     | and                        |
@@ -194,10 +211,13 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | vormiddelst      | prep     | amidst, amongst            |
 | vorsichticheit   | f        | foresight                  |
 | vorsmaden        | v        | reject, refuse             |
+| vorstan          | v        | understand                 |
+| vorvader         | m        | forefather                 |
 | vorvullen        | v        | complete                   |
 | vorwilkoren      | v        | predestine                 |
 | vrage            | f        | question                   |
 | vragen           | v        | ask                        |
+| vroude           | f        | joy                        |
 | wanderen         | v        | wander                     |
 | was (--syn)      |          |                            |
 | wassen           | v        | grow                       |
@@ -206,6 +226,7 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | welk             | pron     | which                      |
 | wellen           | v        | want                       |
 | wente (-->wante) |          |                            |
+| werd             | adj      | worthy, valuable           |
 | werden           | v        | become                     |
 | werdicheit       | f        | esteem, value              |
 | werdichlik       | adj      | worthy, valuable           |
@@ -214,6 +235,7 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | werk             | n        | work                       |
 | werlt            | f        | world                      |
 | wesent           | n        | creature, being            |
+| weten            | v        | know                       |
 | weten            | v        | know                       |
 | wetenheit        | f        | knowledge; wisdom          |
 | wif              | n        | wife                       |
@@ -232,17 +254,23 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 |------------------+----------+----------------------------|
 
 * Proper names
+| Antiochia | Antioch             |
 | Caldea    | Chaldea (Babylonia) |
+| Cordres   | Cordres             |
 | Dimittere | Dimittere           |
+| Frederik  | Frederik            |
 | Japhet    | Japheth             |
 | Jordan    | Jordan (river)      |
 | Madyan    | Madyan              |
 | Moyses    | Moses               |
 | Naaman    | Naman               |
 | Noe       | Noah                |
+| Palerna   | Palermo             |
+| Rogier    | Rogier              |
 | Sabach    | Sabah               |
 | Samaria   | Samaria             |
 | Sydrak    | Sidrach             |
 | Syrien    | Syria               |
 | Tolle     | Toledo              |
+| Tunes     | Tunisia             |
 | Yspania   | Spain               |
