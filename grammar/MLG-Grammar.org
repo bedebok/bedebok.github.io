@@ -1,6 +1,71 @@
 #+TITLE: Middle Low German Grammar
 
-* Dialects
+* Introduction
+Middle Low German (MLG) was a group of closely-related dialects spoken in Northern Germany during the Late Middle Ages (ca. 1200-1600). Due to the rise of the Hanseatic League and the importance of trading centers such as Lübeck, Middle Low German became the /lingua franca/ of trade in Northern Europe during this period.
+
+Middle Low German descends from the Old Saxon (OSax) language, a West Germanic language spoken by the Saxons from around 800-1200. 
+
+The Middle Low German dialects form a continuum and are very closely related to Middle Dutch.
+
+** Dialects
+Middle Low German is typically divided into four main dialects: 
+- Westphalian :: Between the Weser and Rhine rivers. Centers of power include Münster, Paderborn, Dortmund, Bielefeld and Osnabrück.
+- Eastphalian :: From the Weser to the Elbe. Centers of power include Hannover, Hildesheim, Braunschweig, Goslar, Göttingen, Magdeburg and Halle.
+- North Low Saxon :: Spoken along the coast.
+- (South) Brandenburgish :: In the East and South.
+
+The dialect which is most commonly found in sources from or connected to Denmark is North Low Saxon, which is also the dialect of Lübeck.
+
+* Morphology
+Middle Low German is a case language. Nouns decline in four cases (nominative, accusative, dative, genitive) and two numbers (singular, plural). Adjectives decline for case and number as well as the gender (masculine, feminine, neuter) of the noun they point to. Verbs conjugate for person (1, 2, 3), number (singular, plural), tense (present, preterite) and mood (indicative, subjunctive).
+
+- Nouns :: Case, Number
+- Adjectives :: Case, Gender, Number
+- Verbs :: Person, Number, Tense, Mood
+
+** Pronouns
+The personal pronouns decline as follows:
+|-----+---------+---------+--------|
+|     | *1st*   | *2nd*   | *REFL* |
+|-----+---------+---------+--------|
+| nom | ik      | du      |        |
+| acc | mi, mik | di, dik | sik    |
+| dat | mi, mik | di, dik | sik    |
+| gen | mîn     | dîn     | sîn    |
+|-----+---------+---------+--------|
+| nom | wî      | gî      |        |
+| acc | ûs      | jû      | sik    |
+| dat | ûs      | jû      | sik    |
+| gen | ûser    | jûwer   | sîn    |
+|-----+---------+---------+--------|
+Note that the accusative (e.g. /mik/) and dative (e.g. /mî/) have merged.
+
+The third person pronouns also decline for gender:
+
+|-----+-----------+----------+-----------+----------|
+|     | *MASC SG* | *FEM SG* | *NEUT SG* | *PLURAL* |
+|-----+-----------+----------+-----------+----------|
+| nom | hê        | sê       | it        | sê       |
+| acc | en        | sê       | it        | sê       |
+| dat | eme       | ere      | eme       | em       |
+| gen | sîn       | ere      | is        | ere      |
+|-----+-----------+----------+-----------+----------|
+Note that gender is not distinguished in the plural.
+
+The demonstrative pronoun ('the') declines as follows:
+|-----+-----------+----------+-----------+----------|
+|     | *MASC SG* | *FEM SG* | *NEUT SG* | *PLURAL* |
+|-----+-----------+----------+-----------+----------|
+| nom | dê        | dê       | dat       | dê       |
+| acc | den       | dê       | dat       | dê       |
+| dat | deme      | dere     | deme      | dem      |
+| gen | des       | dere     | des       | der      |
+|-----+-----------+----------+-----------+----------|
+
+** Nouns
+
+
+* Dialects                                                         :noexport:
 ** Westphalian
 Between Weser and Rhine. Münster, Paderborn, Dortmund, Bielefeld, Osnabrück.
 
@@ -43,7 +108,7 @@ Charters from the area are found as early as 1379, legal texts from the second h
 - s(ch)al :: Forms without /k/ are Westphalian (as in Dutch), though in the east of the region (Bielefeld) both forms are found. In Münster you can find /schal/ because of a written norm. In the earliest period /s/ can be found having spread to the entire area, later still in Oostseeprovinzen and Danzig. See Lasch §443.
 
 
-* Morphology
+* Morphology                                                       :noexport:
 ** Pronouns
 *** Personal
 |----+-------------------+-------------------+-------------------|

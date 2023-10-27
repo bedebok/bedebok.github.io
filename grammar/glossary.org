@@ -68,20 +68,23 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | gene             | pron     | the one                    |
 | genesen          | v        | heal                       |
 | geslechte        | n        | family, lineage            |
+| gestlik          | adj      | spiritual                  |
 | gevallen         | v        | occur                      |
 | geven            | v        | give                       |
 | gewar            | adj      | aware                      |
 | gewesen (-->syn) |          |                            |
 | gewinnen         | v        | acquire                    |
+| gewinnen         | v        | acquire                    |
+| gi               | pron     | you (pl)                   |
 | gi               | pron     | you (pl)                   |
 | gnade            | f        | mercy, grace               |
 | god              | m        | god, God                   |
+| grekisch         | adj      | Greek                      |
 | grekisch         | adj      | Greek                      |
 | greve            | m        | count (nobleman)           |
 | grot             | adj      | great, large               |
 | hand             | f        | hand                       |
 | he               | pron     | he                         |
-| hebben           | v        | have                       |
 | hebben           | v        | have                       |
 | helle            | f        | Hell                       |
 | hemmel           | m        | heaven                     |
@@ -91,7 +94,6 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | hillich          | adj      | holy                       |
 | hirna            | adv      | after that                 |
 | holden           | v        | hold                       |
-| holden           | v        | hold                       |
 | in               | prep     | in                         |
 | islik            | pron     | any, all                   |
 | jummermeer       | adv      | evermore                   |
@@ -100,13 +102,13 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | komen            | v        | come                       |
 | koning           | m        | king                       |
 | kristen          | adj      | Christian                  |
-| lang             | adj      | long                       |
 | lange            | adv      | long                       |
 | laten            | v        | let                        |
 | latin            | adj/n    | Latin                      |
 | leden            | v        | lead                       |
 | leve             | f        | love                       |
 | leven            | v        | live                       |
+| lichamlik        | adj      | bodily                     |
 | lief, lef        | adj      | beloved                    |
 | lude             | n.pl.    | people                     |
 | macht            | f        | might, power, authority    |
@@ -173,13 +175,13 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | unde             | conj     | and                        |
 | ungelovich       | adj      | unbelieving                |
 | uns              | poss     | our                        |
-| up               | prep     | up, on                     |
-| up               | prep     | on, at                     |
+| up               | prep     | up, on, at                 |
 | upstandinge      | f        | resurrection               |
 | utsetich         | adj      | outcast, leperous          |
 | utsetten         | v        | translate                  |
 | vader            | m        | father                     |
 | van              | prep     | of, from                   |
+| vel              | adj      | many                       |
 | vel              | adj      | many                       |
 | vinden           | v        | find                       |
 | volk             | n        | folk, people               |
@@ -205,9 +207,6 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | wellen           | v        | want                       |
 | wente (-->wante) |          |                            |
 | werden           | v        | become                     |
-| werden           | v        | become                     |
-| werden           |          |                            |
-| werden           | v        | become                     |
 | werdicheit       | f        | esteem, value              |
 | werdichlik       | adj      | worthy, valuable           |
 | werdigen         | v        | honor, appreciate          |
@@ -225,7 +224,6 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | wisheit          | f        | wisdom                     |
 | wo               | adv      | where                      |
 | wo               | adv      | how                        |
-| wo               | adv      | where                      |
 | wo af            | prep     | where (from)               |
 | wol              | adv      | well, nevertheless         |
 | wonen            | v        | live                       |

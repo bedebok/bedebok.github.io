@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-10-27 Fri 12:26 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Middle Low German Grammar</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Seán Vrieland" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Middle Low German Grammar</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org5e73906">1. Introduction</a></li>
+<li><a href="#org885a75b">2. Dialects</a>
+<ul>
+<li><a href="#org7d394e2">2.1. Westphalian</a></li>
+<li><a href="#orgf09941d">2.2. Eastphalian</a></li>
+<li><a href="#orgfedd72a">2.3. North Low Saxon</a>
+<ul>
+<li><a href="#org14dce13">2.3.1. East Frisian and Oldenburgish</a></li>
+<li><a href="#org2593031">2.3.2. Nordalbingian</a></li>
+<li><a href="#org71c2bee">2.3.3. East Elbian</a></li>
+</ul>
+</li>
+<li><a href="#org8335d08">2.4. (South) Brandenburgish</a></li>
+<li><a href="#org62bc34a">2.5. Dialect diagnostics</a></li>
+</ul>
+</li>
+<li><a href="#org90b164e">3. Morphology</a>
+<ul>
+<li><a href="#org5020c04">3.1. Pronouns</a>
+<ul>
+<li><a href="#org6edf9e8">3.1.1. Personal</a></li>
+<li><a href="#orgf35d00a">3.1.2. Demonstrative</a></li>
+</ul>
+</li>
+<li><a href="#orgb8a0220">3.2. Nouns and adjectives</a>
+<ul>
+<li><a href="#org2dcd9e5">3.2.1. Masculine</a></li>
+<li><a href="#orgf442efb">3.2.2. Neuter</a></li>
+<li><a href="#orgd865379">3.2.3. Feminine</a></li>
+<li><a href="#org77f756f">3.2.4. Weak declension (<i>n</i>-stems)</a></li>
+<li><a href="#org0ead00e">3.2.5. Adjectives</a></li>
+</ul>
+</li>
+<li><a href="#org31126c9">3.3. Verbs</a>
+<ul>
+<li><a href="#org6316157">3.3.1. Present</a></li>
+<li><a href="#orga9a3501">3.3.2. Ablaut series</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org5e73906" class="outline-2">
+<h2 id="org5e73906"><span class="section-number-2">1</span> Introduction</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Middle Low German (MLG) was a group of closely-related dialects spoken in Northern Germany during the Late Middle Ages (ca. 1200-1600). 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org885a75b" class="outline-2">
+<h2 id="org885a75b"><span class="section-number-2">2</span> Dialects</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org7d394e2" class="outline-3">
+<h3 id="org7d394e2"><span class="section-number-3">2.1</span> Westphalian</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Between Weser and Rhine. Münster, Paderborn, Dortmund, Bielefeld, Osnabrück.
+</p>
+
+<p>
+Shows many orthographic similarities to Ripuarian (Cologne).
+</p>
+
+<dl class="org-dl">
+<dt>Phonology</dt><dd>Breaking of <i>i, e</i> &gt; <i>ie</i> can be seen in e.g. <i>tielen</i> (Nd. Korr. 11, 13), <i>miede gerieden</i> (Dortmund 1390), <i>gieven</i> (Korbach 1394). See Lasch pg. 35 (§39 II).</dd>
+
+<dt>Orthography</dt><dd>Influence from Low Franconian (Dutch) in use of &lt;e, i&gt; to mark length (e.g. &lt;oi&gt; for <i>ō</i>)</dd>
+
+<dt>Morphology</dt><dd>Mix of (original) <i>-et</i> with (borrowed) <i>-en</i> in plural verbs. Mix of <i>ûs</i> and <i>uns</i>. Frequent use of <i>hebbt</i> for (inf?!) <i>hebben</i>. Frequent analogical use of plural stem-vowel in the singular (<i>wort</i> from <i>worden</i>; <i>du drovest</i> instead of <i>darvest</i>).</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-orgf09941d" class="outline-3">
+<h3 id="orgf09941d"><span class="section-number-3">2.2</span> Eastphalian</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+From Weser to Elbe. Hannover, Hildesheim, Braunschweig, Goslar, Göttingen; Magdeburg, Halle.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfedd72a" class="outline-3">
+<h3 id="orgfedd72a"><span class="section-number-3">2.3</span> North Low Saxon</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Along the coast.
+</p>
+<dl class="org-dl">
+<dt>Phonology</dt><dd>lengthened <i>e, i</i> &gt; <i>ä</i>, spelled &lt;e&gt; (pointing to a dipthong?). In printed texts from the 16th century (esp. from Lübeck) it can be written &lt;ë&gt; as in <i>frëde, schëpe, rëkenshop, ëm</i> (Lasch §39 II).</dd>
+</dl>
+<p>
+The ending  <i>-er</i> &gt; <i>-ar</i> (§76)
+  <i>-ald-</i> &gt; <i>-old-</i> (93)
+  Nominal ending <i>-schop</i>
+  <i>gâns</i> &gt; <i>gôs</i>
+  Pronouns <i>mî dî jû</i> are used for both accusative and dative. 
+</p>
+<ul class="org-ul">
+<li><i>desse</i> (this)</li>
+<li><i>wol</i> or <i>we</i> (who)</li>
+<li><i>willen</i> (want)</li>
+<li><i>van</i> (from; 38,2)</li>
+</ul>
+</div>
+<div id="outline-container-org14dce13" class="outline-4">
+<h4 id="org14dce13"><span class="section-number-4">2.3.1</span> East Frisian and Oldenburgish</h4>
+<div class="outline-text-4" id="text-2-3-1">
+<p>
+broadly speaking, this subdiakect stretches from the mouth of the Ems (essentially the border to Groningen) until the Weser (Bremerhaven). It combines the East Frisian, Oldenburg and Emsland areas and borders Westphalian to the south.
+</p>
+
+<p>
+Charters from the area are found as early as 1379, legal texts from the second half of the 15th cent. From 1464 Low German was also the courtly language of East Frisia, even though Frisian was still spoken. Frisian influence is more prevalent in legal texts than in charters (although one charter from 1438 does have <i>na asigheboke vnd lantrechte</i> in reference to Frisian law from the <i>āsega</i>).
+</p>
+</div>
+</div>
+<div id="outline-container-org2593031" class="outline-4">
+<h4 id="org2593031"><span class="section-number-4">2.3.2</span> Nordalbingian</h4>
+</div>
+<div id="outline-container-org71c2bee" class="outline-4">
+<h4 id="org71c2bee"><span class="section-number-4">2.3.3</span> East Elbian</h4>
+</div>
+</div>
+
+
+
+<div id="outline-container-org8335d08" class="outline-3">
+<h3 id="org8335d08"><span class="section-number-3">2.4</span> (South) Brandenburgish</h3>
+</div>
+
+<div id="outline-container-org62bc34a" class="outline-3">
+<h3 id="org62bc34a"><span class="section-number-3">2.5</span> Dialect diagnostics</h3>
+<div class="outline-text-3" id="text-2-5">
+<dl class="org-dl">
+<dt>-en/-et</dt><dd>Plural ending of verbs. Dialects west of the Elbe and up to Eastern Holstein and Western Mecklenburg still have <i>-et</i> today. <i>-et</i> was also the more common ending in the 13th and 14th centuries, though by the 15th century the ending <i>-en</i> dominates. See Lasch §419.</dd>
+<dt>s(ch)al</dt><dd>Forms without <i>k</i> are Westphalian (as in Dutch), though in the east of the region (Bielefeld) both forms are found. In Münster you can find <i>schal</i> because of a written norm. In the earliest period <i>s</i> can be found having spread to the entire area, later still in Oostseeprovinzen and Danzig. See Lasch §443.</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org90b164e" class="outline-2">
+<h2 id="org90b164e"><span class="section-number-2">3</span> Morphology</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org5020c04" class="outline-3">
+<h3 id="org5020c04"><span class="section-number-3">3.1</span> Pronouns</h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+<div id="outline-container-org6edf9e8" class="outline-4">
+<h4 id="org6edf9e8"><span class="section-number-4">3.1.1</span> Personal</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left"><b>MASC</b></th>
+<th scope="col" class="org-left"><b>FEM</b></th>
+<th scope="col" class="org-left"><b>NEUT</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">sg</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">hê, hî, hie</td>
+<td class="org-left">sê, si(e), sü̂</td>
+<td class="org-left">it, et</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">en(e), on(e)</td>
+<td class="org-left">sê, si(e), sü̂</td>
+<td class="org-left">it, et</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">eme, ome, en</td>
+<td class="org-left">er(e), erer, örer</td>
+<td class="org-left">em(e), om(e), en</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">is, es, sîn(er)</td>
+<td class="org-left">er(e), erer, örer</td>
+<td class="org-left">is, es</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">pl</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">sê, si(e)</td>
+<td class="org-left">sê, si(e)</td>
+<td class="org-left">sê, si(e)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">sê, si(e)</td>
+<td class="org-left">sê, si(e)</td>
+<td class="org-left">sê, si(e)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">em, en, öm, jüm</td>
+<td class="org-left">em, en, öm, jüm</td>
+<td class="org-left">em, en, öm, jüm</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">er(e), erer, örer</td>
+<td class="org-left">er(e), erer, örer</td>
+<td class="org-left">er(e), erer, örer</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgf35d00a" class="outline-4">
+<h4 id="orgf35d00a"><span class="section-number-4">3.1.2</span> Demonstrative</h4>
+<div class="outline-text-4" id="text-3-1-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left"><b>MASC</b></th>
+<th scope="col" class="org-left"><b>FEM</b></th>
+<th scope="col" class="org-left"><b>NEUT</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">sg</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">dê, di(e)</td>
+<td class="org-left">dü̂, dê, di(e)</td>
+<td class="org-left">dat</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">den(e)</td>
+<td class="org-left">dü̂, dê, di(e)</td>
+<td class="org-left">dat</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">dem(e), den</td>
+<td class="org-left">der(e)</td>
+<td class="org-left">dem(e), den</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">des</td>
+<td class="org-left">der(e)</td>
+<td class="org-left">des</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">pl</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">dê, di(e)</td>
+<td class="org-left">dê, di(e)</td>
+<td class="org-left">dê, di(e)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">dê, di(e)</td>
+<td class="org-left">dê, di(e)</td>
+<td class="org-left">dê, di(e)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">den</td>
+<td class="org-left">den</td>
+<td class="org-left">den</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">der</td>
+<td class="org-left">der</td>
+<td class="org-left">der</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb8a0220" class="outline-3">
+<h3 id="orgb8a0220"><span class="section-number-3">3.2</span> Nouns and adjectives</h3>
+<div class="outline-text-3" id="text-3-2">
+</div>
+<div id="outline-container-org2dcd9e5" class="outline-4">
+<h4 id="org2dcd9e5"><span class="section-number-4">3.2.1</span> Masculine</h4>
+<div class="outline-text-4" id="text-3-2-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left"><i>a</i>-stem</th>
+<th scope="col" class="org-left"><i>i</i>-stem</th>
+<th scope="col" class="org-left"><i>i</i>-stem (short)</th>
+<th scope="col" class="org-left"><i>ja</i>-stem</th>
+<th scope="col" class="org-left"><i>u</i>-stem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">nom</td>
+<td class="org-left">dach</td>
+<td class="org-left">gast</td>
+<td class="org-left">bröke</td>
+<td class="org-left">herde</td>
+<td class="org-left">sone</td>
+</tr>
+
+<tr>
+<td class="org-left">acc</td>
+<td class="org-left">dach</td>
+<td class="org-left">gast</td>
+<td class="org-left">bröke</td>
+<td class="org-left">herde</td>
+<td class="org-left">sone</td>
+</tr>
+
+<tr>
+<td class="org-left">dat</td>
+<td class="org-left">dage</td>
+<td class="org-left">gaste</td>
+<td class="org-left">bröke</td>
+<td class="org-left">herde</td>
+<td class="org-left">sone</td>
+</tr>
+
+<tr>
+<td class="org-left">gen</td>
+<td class="org-left">dages</td>
+<td class="org-left">gastes</td>
+<td class="org-left">brökes</td>
+<td class="org-left">herdes</td>
+<td class="org-left">sones</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">nom</td>
+<td class="org-left">dage</td>
+<td class="org-left">geste</td>
+<td class="org-left">bröke</td>
+<td class="org-left">herde(s)</td>
+<td class="org-left">söne</td>
+</tr>
+
+<tr>
+<td class="org-left">acc</td>
+<td class="org-left">dage</td>
+<td class="org-left">geste</td>
+<td class="org-left">bröke</td>
+<td class="org-left">herde(s)</td>
+<td class="org-left">söne</td>
+</tr>
+
+<tr>
+<td class="org-left">dat</td>
+<td class="org-left">dagen</td>
+<td class="org-left">gesten</td>
+<td class="org-left">bröken</td>
+<td class="org-left">herden</td>
+<td class="org-left">sönen</td>
+</tr>
+
+<tr>
+<td class="org-left">gen</td>
+<td class="org-left">dage</td>
+<td class="org-left">geste</td>
+<td class="org-left">bröke</td>
+<td class="org-left">herde</td>
+<td class="org-left">söne</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgf442efb" class="outline-4">
+<h4 id="orgf442efb"><span class="section-number-4">3.2.2</span> Neuter</h4>
+<div class="outline-text-4" id="text-3-2-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left"><i>a</i>-stem</th>
+<th scope="col" class="org-left"><i>s</i>-stem</th>
+<th scope="col" class="org-left"><i>ja</i>-stem</th>
+<th scope="col" class="org-left"><i>wa</i>-stem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">nom</td>
+<td class="org-left">wort</td>
+<td class="org-left">lam</td>
+<td class="org-left">bedde</td>
+<td class="org-left">mele</td>
+</tr>
+
+<tr>
+<td class="org-left">acc</td>
+<td class="org-left">wort</td>
+<td class="org-left">lam</td>
+<td class="org-left">bedde</td>
+<td class="org-left">mele</td>
+</tr>
+
+<tr>
+<td class="org-left">dat</td>
+<td class="org-left">worde</td>
+<td class="org-left">lamme</td>
+<td class="org-left">bedde</td>
+<td class="org-left">mele</td>
+</tr>
+
+<tr>
+<td class="org-left">gen</td>
+<td class="org-left">wordes</td>
+<td class="org-left">lammes</td>
+<td class="org-left">beddes</td>
+<td class="org-left">meles</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">nom</td>
+<td class="org-left">wort (worde)</td>
+<td class="org-left">lammer(e), lemmer</td>
+<td class="org-left">bedde</td>
+<td class="org-left">(as <i>a</i>-stems)</td>
+</tr>
+
+<tr>
+<td class="org-left">acc</td>
+<td class="org-left">wort (worde)</td>
+<td class="org-left">lammer(e), lemmer</td>
+<td class="org-left">bedde</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">dat</td>
+<td class="org-left">worden</td>
+<td class="org-left">lammer(e)n</td>
+<td class="org-left">bedden</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">gen</td>
+<td class="org-left">worde</td>
+<td class="org-left">lammer(e)</td>
+<td class="org-left">bedde</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<dl class="org-dl">
+<dt>mele</dt><dd><i>smer, hor, knê</i></dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-orgd865379" class="outline-4">
+<h4 id="orgd865379"><span class="section-number-4">3.2.3</span> Feminine</h4>
+<div class="outline-text-4" id="text-3-2-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left"><i>ô</i>-stem</th>
+<th scope="col" class="org-left"><i>i</i>-stem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">nom</td>
+<td class="org-left">wîse</td>
+<td class="org-left">hût</td>
+</tr>
+
+<tr>
+<td class="org-left">acc</td>
+<td class="org-left">wîse</td>
+<td class="org-left">hût</td>
+</tr>
+
+<tr>
+<td class="org-left">dat</td>
+<td class="org-left">wîse(n)</td>
+<td class="org-left">hût (hûde)</td>
+</tr>
+
+<tr>
+<td class="org-left">gen</td>
+<td class="org-left">wîse(n)</td>
+<td class="org-left">hût</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">nom</td>
+<td class="org-left">wîse(n)</td>
+<td class="org-left">hü̂de</td>
+</tr>
+
+<tr>
+<td class="org-left">acc</td>
+<td class="org-left">wîse(n)</td>
+<td class="org-left">hü̂de</td>
+</tr>
+
+<tr>
+<td class="org-left">dat</td>
+<td class="org-left">wîsen</td>
+<td class="org-left">hü̂den</td>
+</tr>
+
+<tr>
+<td class="org-left">gen</td>
+<td class="org-left">wîsen</td>
+<td class="org-left">hü̂de</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org77f756f" class="outline-4">
+<h4 id="org77f756f"><span class="section-number-4">3.2.4</span> Weak declension (<i>n</i>-stems)</h4>
+<div class="outline-text-4" id="text-3-2-4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">masc</th>
+<th scope="col" class="org-left">fem</th>
+<th scope="col" class="org-left">neut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">nom</td>
+<td class="org-left">vörste</td>
+<td class="org-left">tunge</td>
+<td class="org-left">herte</td>
+</tr>
+
+<tr>
+<td class="org-left">acc</td>
+<td class="org-left">vörsten</td>
+<td class="org-left">tunge(n)</td>
+<td class="org-left">herte</td>
+</tr>
+
+<tr>
+<td class="org-left">dat</td>
+<td class="org-left">vörsten</td>
+<td class="org-left">tungen</td>
+<td class="org-left">herten</td>
+</tr>
+
+<tr>
+<td class="org-left">gen</td>
+<td class="org-left">vörsten</td>
+<td class="org-left">tungen</td>
+<td class="org-left">herten</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">(all)</td>
+<td class="org-left">vörsten</td>
+<td class="org-left">tungen</td>
+<td class="org-left">herten</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org0ead00e" class="outline-4">
+<h4 id="org0ead00e"><span class="section-number-4">3.2.5</span> Adjectives</h4>
+<div class="outline-text-4" id="text-3-2-5">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">masc</th>
+<th scope="col" class="org-left">fem</th>
+<th scope="col" class="org-left">neut</th>
+<th scope="col" class="org-left">strong</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">nom</td>
+<td class="org-left">blint, blinder</td>
+<td class="org-left">blint, blinde</td>
+<td class="org-left">blint</td>
+<td class="org-left">blinde</td>
+</tr>
+
+<tr>
+<td class="org-left">acc</td>
+<td class="org-left">blinden</td>
+<td class="org-left">blinde</td>
+<td class="org-left">blint</td>
+<td class="org-left">blinden (<i>neut</i> blinde)</td>
+</tr>
+
+<tr>
+<td class="org-left">dat</td>
+<td class="org-left">blindem(e), blinden</td>
+<td class="org-left">blinder(e)</td>
+<td class="org-left">blindem(e), blinden</td>
+<td class="org-left">blinden</td>
+</tr>
+
+<tr>
+<td class="org-left">gen</td>
+<td class="org-left">blindes</td>
+<td class="org-left">blinder(e)</td>
+<td class="org-left">blindes</td>
+<td class="org-left">blinden</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">nom</td>
+<td class="org-left">blinde</td>
+<td class="org-left">blinde</td>
+<td class="org-left">blinde</td>
+<td class="org-left">blinden</td>
+</tr>
+
+<tr>
+<td class="org-left">acc</td>
+<td class="org-left">blinde</td>
+<td class="org-left">blinde</td>
+<td class="org-left">blinde</td>
+<td class="org-left">blinden</td>
+</tr>
+
+<tr>
+<td class="org-left">dat</td>
+<td class="org-left">blinden</td>
+<td class="org-left">blinden</td>
+<td class="org-left">blinden</td>
+<td class="org-left">blinden</td>
+</tr>
+
+<tr>
+<td class="org-left">gen</td>
+<td class="org-left">blinder(e)</td>
+<td class="org-left">blinder(e)</td>
+<td class="org-left">blinder(e)</td>
+<td class="org-left">blinden</td>
+</tr>
+</tbody>
+</table>
+<dl class="org-dl">
+<dt>lam</dt><dd><i>ey, hôn, kalf, rint</i>. Spread of <i>-er-</i> plurals (from 13th c.) e.g. <i>lant-lendere</i> (typically <i>lant-lande</i>).</dd>
+</dl>
+</div>
+</div>
+</div>
+<div id="outline-container-org31126c9" class="outline-3">
+<h3 id="org31126c9"><span class="section-number-3">3.3</span> Verbs</h3>
+<div class="outline-text-3" id="text-3-3">
+</div>
+<div id="outline-container-org6316157" class="outline-4">
+<h4 id="org6316157"><span class="section-number-4">3.3.1</span> Present</h4>
+<div class="outline-text-4" id="text-3-3-1">
+<p>
+Note strong and weak have same endings
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="orgab45228"></a>Paradigms<br />
+<div class="outline-text-5" id="text-3-3-1-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left"><b>INDICATIVE</b></th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left"><b>SUBJUNCTIVE</b></th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left"><b>IMPERATIVE</b></th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">PRES</th>
+<th scope="col" class="org-left">PRET</th>
+<th scope="col" class="org-left">PRES</th>
+<th scope="col" class="org-left">PRET</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">SG</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">geve</td>
+<td class="org-left">gav</td>
+<td class="org-left">geve</td>
+<td class="org-left">gêve</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">gifst, gevest</td>
+<td class="org-left">gêvest</td>
+<td class="org-left">gevest</td>
+<td class="org-left">gêvest</td>
+<td class="org-left">gif, gef</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">gift, geft, gevet</td>
+<td class="org-left">gaf</td>
+<td class="org-left">geve</td>
+<td class="org-left">gêve</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">PL</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">gevet, geven</td>
+<td class="org-left">gêven</td>
+<td class="org-left">geven</td>
+<td class="org-left">gêven</td>
+<td class="org-left">gevet</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+cf. Frisian <i>je</i>-verbs
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left"><b>INDICATIVE</b></th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left"><b>SUBJUNCTIVE</b></th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">*IMPERATIVE</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">PRES</th>
+<th scope="col" class="org-left">PRET</th>
+<th scope="col" class="org-left">PRES</th>
+<th scope="col" class="org-left">PRET</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">SG</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">make</td>
+<td class="org-left">makede</td>
+<td class="org-left">make</td>
+<td class="org-left">makede</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">makest</td>
+<td class="org-left">makedest</td>
+<td class="org-left">makest</td>
+<td class="org-left">makedest</td>
+<td class="org-left">make</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">maket</td>
+<td class="org-left">makede</td>
+<td class="org-left">make</td>
+<td class="org-left">makede</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">PL</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">maket, maken</td>
+<td class="org-left">makeden</td>
+<td class="org-left">maken</td>
+<td class="org-left">makeden</td>
+<td class="org-left">maket</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+
+<li><a id="orgfa48980"></a>Comments<br />
+<ol class="org-ol">
+<li><a id="org81b55a6"></a>PRESENT<br />
+<div class="outline-text-6" id="text-3-3-1-2-1">
+<ol class="org-ol">
+<li>formed with <i>-e</i> (from Old Saxon <i>-u</i>, <i>hilpu</i>), including wk.ii. (<i>on-</i>) verbs (&lt;&lt; OSax. <i>-n</i>, <i>mahlon</i>). In the monosyllabic verbs <i>stâ gâ dô bin</i> the ending <i>-n</i> can often appear in <b>western</b> texts and occasionally other areas. Analogical use of plural stem-vowel in str.II (Old Saxon <i>biudu, biudis, biudid</i>, pl. <i>biodad</i> &gt; <i>bêde, büdest, büdet</i>, pl. <i>bêdet</i>)</li>
+
+<li><b>Westphalian</b> has the ending <i>-s</i> (<i>du heves</i>).</li>
+
+<li></li>
+</ol>
+
+<p>
+Both 2. and 3. sg. show umlaut where possible; variation also found (<i>draget</i> next to <i>drecht</i>).
+</p>
+
+<dl class="org-dl">
+<dt>PLURAL</dt><dd>Merger of all three persons. <b>West</b> of the Elbe and up to Eastern Holstein, Western Mecklenburg, the form is <i>-et</i>, while <b>eastern</b> dialects have <i>-en</i>. During <b>13th</b> and <b>14th c.</b> the form <i>-et</i> dominates, even in Mecklenburg; Brandenburg still <i>-en</i>, Visby both forms.</dd>
+</dl>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="outline-container-orga9a3501" class="outline-4">
+<h4 id="orga9a3501"><span class="section-number-4">3.3.2</span> Ablaut series</h4>
+<div class="outline-text-4" id="text-3-3-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<tbody>
+<tr>
+</tr>
+</tbody>
+
+<tr>
+<td class="org-left">I</td>
+<td class="org-left">î - ai - i - i</td>
+<td class="org-left">î - ê - i - i</td>
+<td class="org-left">î - ê -</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Seán Vrieland</p>
+<p class="date">Created: 2023-10-27 Fri 12:26</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
