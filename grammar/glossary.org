@@ -93,6 +93,7 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | greve            | m        | count (nobleman)           |
 | grot             | adj      | great, large               |
 | hand             | f        | hand                       |
+| hastig           | adj      | hasty, impatient, angry    |
 | he               | pron     | he                         |
 | hebben           | v        | have                       |
 | helle            | f        | Hell                       |
@@ -147,6 +148,7 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | orde             | m/f      | order                      |
 | ordel            | n/f      | judgement                  |
 | over             | prep     | over, above                |
+| over eyn         | adv      | in agreement               |
 | over treden      | v        | overstep, transgress       |
 | overmate         | adj      | excessive                  |
 | overmate         | f        | excess                     |
@@ -199,7 +201,7 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | vader            | m        | father                     |
 | van              | prep     | of, from                   |
 | vel              | adj      | many                       |
-| vel              | adj      | many                       |
+| viant            | m        | enemy, fiend               |
 | vinden           | v        | find                       |
 | volk             | n        | folk, people               |
 | vorbenomet       | adj      | aforementioned             |
@@ -219,7 +221,7 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | vragen           | v        | ask                        |
 | vroude           | f        | joy                        |
 | wanderen         | v        | wander                     |
-| was (--syn)      |          |                            |
+| was (-->syn)     |          |                            |
 | wassen           | v        | grow                       |
 | water vlot       | f        | flood                      |
 | wedder           | adv      | again                      |
