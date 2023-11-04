@@ -209,7 +209,7 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | vorloren         | adj      | lost                       |
 | vormeren         | v        | increase                   |
 | vormiddelst      | prep     | amidst, amongst            |
-| vorsichticheit   | f        | foresight                  |
+| vorsichticheit   | f        | foresight, providence      |
 | vorsmaden        | v        | reject, refuse             |
 | vorstan          | v        | understand                 |
 | vorvader         | m        | forefather                 |
