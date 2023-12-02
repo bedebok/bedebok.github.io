@@ -63,7 +63,100 @@ The demonstrative pronoun ('the') declines as follows:
 |-----+-----------+----------+-----------+----------|
 
 ** Nouns
+Nouns are separated into three genders (masculine, feminine, neuter) and different inflectional categories. Of these categories, the most important are:
 
+- Strong nouns :: These are the old /o/-stems from Proto-Indo-European (also known as thematic nouns), which became /a/-stems in the Proto-Germanic period. It is a very productive category, meaning new nouns (loanwords, deverbals) will often be inflected in this way.
+- Weak nouns :: These are also known as /n/-stems due to the inflectional element /n/.
+
+Two further important inflectional categories are /i/-stems, which can be divided into short and long stems; and /u/-stems.
+
+*** Strong nouns
+The following table shows the inflection of the masculine noun /dach/ (day). Compare the inflection of the Old Icelandic cognate /dagr/.
+
+|-----+--------+--------+--------+---------|
+|     | SG     |        | PL     |         |
+|-----+--------+--------+--------+---------|
+| nom | dach   | /dagr/ | daghe  | /dagar/ |
+| acc | dach   | /dag/  | daghe  | /daga/  |
+| dat | daghe  | /degi/ | daghen | /dǫgum/ |
+| gen | daghes | /dags/ | daghe  | /daga/  |
+|-----+--------+--------+--------+---------|
+
+Note the following observations:
+- Word-final /ch/ often reflects an underlying /g/ (often spelled /gh/ in front of vowels).
+- The nominative and accusative endings are the same in Middle Low German due to the loss of word-final /*-R/ (Old Icelandic /-r/).
+- The dative singular ends in /-e/ (corresponding to Old Icelandic /-i/). The plural ending /-en/ is due to final (unstressed) /*m/ > /n/.
+- The genitive singular ending /-es/ retains a vowel, as opposed to Old Icelandic /-s/.
+
+The neuter noun /wort/ (word) is also a strong noun. Note the similarities between the masculine and neuter inflections. Old Icelandic /orð/ is given as a comparison.
+
+|-----+--------+--------+-------------+---------|
+|     | SG     |        | PL          |         |
+|-----+--------+--------+-------------+---------|
+| nom | wort   | /orð/  | wort, worde | /orð/   |
+| acc | wort   | /orð/  | wort, worde | /orð/   |
+| dat | worde  | /orði/ | worden      | /orðum/ |
+| gen | wordes | /orðs/ | worde       | /orða/  |
+|-----+--------+--------+-------------+---------|
+
+Note the following observations:
+- Word-final /t/ here represents and underlying /d/
+- Due to the loss of a nominative marker in the masculine (corresponding to Old Icelandic /-r/) there is no difference between masculine and neuter in the singular.
+- The nominative and accusative plural were originally identical to the singular in neuter nouns, as in Old Icelandic. Over time the plural ending /-e/ spread from the masculine inflection.
+
+Feminines inflect somewhat differently. Compare the feminine noun /gāve/ (gift; source of Danish /gave/ and Old Icelandic /gáfa/) with Old Icelandic /gjǫf/.
+
+|-----+---------+----------+---------+-----------------|
+|     | SG      |          | PL      |                 |
+|-----+---------+----------+---------+-----------------|
+| nom | gāve    | /gjǫf/   | gāve(n) | /gjafar/, /-ir/ |
+| acc | gāve    | /gjǫf/   | gāve(n) | /gjafar/, /-ir/ |
+| dat | gāve(n) | /gjǫf/   | gāven   | /gjǫfum/        |
+| gen | gāve(n) | /gjafar/ | gāven   | /gjafa/         |
+|-----+---------+----------+---------+-----------------|
+
+Many of the endings merged in the feminine strong nouns. Over time, a new inflectional element /-n/ spread into the paradigm from the weak nouns (also called /n/-stems).
+
+*** Weak nouns
+The weak or /n/-inflection is characterized by a stem element /n/ which appears variously throughout the paradigm. This inflectional element eventually spread into other paradigms and is found today as the plural marker of many originally strong nouns in for example Dutch (/dag/, pl. /dagen/).
+
+The following general observations can be made for the weak nouns in Middle Low German, applicable to all three genders:
+- Only two endings are found: /-e/ and /-en/.
+- Nominative singular always ends in /-e/.
+- The plural ending /-en/ is used in all four cases.
+
+Note the following masculine weak noun /vörste/ (prince), which was borrowed into Old Icelandic (via Danish) as /fursti/, which also inflects as a weak noun.
+
+|-----+---------+----------+---------+-----------|
+|     | SG      |          | PL      |           |
+|-----+---------+----------+---------+-----------|
+| nom | vörste  | /fursti/ | vörsten | /furstar/ |
+| acc | vörsten | /fursta/ | vörsten | /fursta/  |
+| dat | vörsten | /fursta/ | vörsten | /furstum/ |
+| get | vörsten | /fursta/ | vörsten | /fursta/  |
+|-----+---------+----------+---------+-----------|
+
+The feminine weak noun /tunge/ (tongue) and its Old Icelandic cognate /tunga/ inflect as follows:
+
+|-----+----------+---------+--------+----------|
+|     | SG       |         | PL     |          |
+|-----+----------+---------+--------+----------|
+| nom | tunge    | /tunga/ | tungen | /tungur/ |
+| acc | tunge    | /tungu/ | tungen | /tungur/ |
+| dat | tunge(n) | /tungu/ | tungen | /tungum/ |
+| get | tunge(n) | /tungu/ | tungen | /tungna/ |
+|-----+----------+---------+--------+----------|
+
+The neuter weak noun /herte/ (heart) also inflects as a weak noun in Old Icelandic /hjarta/
+
+|-----+--------+----------+--------+-----------|
+|     | SG     |          | PL     |           |
+|-----+--------+----------+--------+-----------|
+| nom | herte  | /hjarta/ | herten | /hjǫrtu/  |
+| acc | herte  | /hjarta/ | herten | /hjǫrtu/  |
+| dat | herten | /hjarta/ | herten | /hjǫrtum/ |
+| get | herten | /hjarta/ | herten | /hjartna/ |
+|-----+--------+----------+--------+-----------|
 
 * Dialects                                                         :noexport:
 ** Westphalian

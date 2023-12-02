@@ -3,30 +3,23 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-10-27 Fri 13:06 -->
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Middle Low German Grammar</title>
-<meta name="generator" content="Org mode" />
-<meta name="author" content="Seán Vrieland" />
+<!-- 2023-12-02 Sat 11:32 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Seán D Vrieland" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center;
-             margin-bottom: .2em; }
-  .subtitle { text-align: center;
-              font-size: medium;
-              font-weight: bold;
-              margin-top:0; }
+  .title  { text-align: center; }
   .todo   { font-family: monospace; color: red; }
-  .done   { font-family: monospace; color: green; }
-  .priority { font-family: monospace; color: orange; }
+  .done   { color: green; }
   .tag    { background-color: #eee; font-family: monospace;
             padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
   .underline { text-decoration: underline; }
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
@@ -53,111 +46,27 @@
     border: 1px solid black;
   }
   pre.src:hover:before { display: inline;}
-  /* Languages per Org manual */
-  pre.src-asymptote:before { content: 'Asymptote'; }
-  pre.src-awk:before { content: 'Awk'; }
-  pre.src-C:before { content: 'C'; }
-  /* pre.src-C++ doesn't work in CSS */
-  pre.src-clojure:before { content: 'Clojure'; }
-  pre.src-css:before { content: 'CSS'; }
-  pre.src-D:before { content: 'D'; }
-  pre.src-ditaa:before { content: 'ditaa'; }
-  pre.src-dot:before { content: 'Graphviz'; }
-  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
   pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-fortran:before { content: 'Fortran'; }
-  pre.src-gnuplot:before { content: 'gnuplot'; }
-  pre.src-haskell:before { content: 'Haskell'; }
-  pre.src-hledger:before { content: 'hledger'; }
-  pre.src-java:before { content: 'Java'; }
-  pre.src-js:before { content: 'Javascript'; }
-  pre.src-latex:before { content: 'LaTeX'; }
-  pre.src-ledger:before { content: 'Ledger'; }
-  pre.src-lisp:before { content: 'Lisp'; }
-  pre.src-lilypond:before { content: 'Lilypond'; }
-  pre.src-lua:before { content: 'Lua'; }
-  pre.src-matlab:before { content: 'MATLAB'; }
-  pre.src-mscgen:before { content: 'Mscgen'; }
-  pre.src-ocaml:before { content: 'Objective Caml'; }
-  pre.src-octave:before { content: 'Octave'; }
-  pre.src-org:before { content: 'Org mode'; }
-  pre.src-oz:before { content: 'OZ'; }
-  pre.src-plantuml:before { content: 'Plantuml'; }
-  pre.src-processing:before { content: 'Processing.js'; }
-  pre.src-python:before { content: 'Python'; }
-  pre.src-R:before { content: 'R'; }
-  pre.src-ruby:before { content: 'Ruby'; }
-  pre.src-sass:before { content: 'Sass'; }
-  pre.src-scheme:before { content: 'Scheme'; }
-  pre.src-screen:before { content: 'Gnu Screen'; }
-  pre.src-sed:before { content: 'Sed'; }
-  pre.src-sh:before { content: 'shell'; }
-  pre.src-sql:before { content: 'SQL'; }
-  pre.src-sqlite:before { content: 'SQLite'; }
-  /* additional languages in org.el's org-babel-load-languages alist */
-  pre.src-forth:before { content: 'Forth'; }
-  pre.src-io:before { content: 'IO'; }
-  pre.src-J:before { content: 'J'; }
-  pre.src-makefile:before { content: 'Makefile'; }
-  pre.src-maxima:before { content: 'Maxima'; }
-  pre.src-perl:before { content: 'Perl'; }
-  pre.src-picolisp:before { content: 'Pico Lisp'; }
-  pre.src-scala:before { content: 'Scala'; }
-  pre.src-shell:before { content: 'Shell Script'; }
-  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
-  /* additional language identifiers per "defun org-babel-execute"
-       in ob-*.el */
-  pre.src-cpp:before  { content: 'C++'; }
-  pre.src-abc:before  { content: 'ABC'; }
-  pre.src-coq:before  { content: 'Coq'; }
-  pre.src-groovy:before  { content: 'Groovy'; }
-  /* additional language identifiers from org-babel-shell-names in
-     ob-shell.el: ob-shell is the only babel language using a lambda to put
-     the execution function name together. */
-  pre.src-bash:before  { content: 'bash'; }
-  pre.src-csh:before  { content: 'csh'; }
-  pre.src-ash:before  { content: 'ash'; }
-  pre.src-dash:before  { content: 'dash'; }
-  pre.src-ksh:before  { content: 'ksh'; }
-  pre.src-mksh:before  { content: 'mksh'; }
-  pre.src-posh:before  { content: 'posh'; }
-  /* Additional Emacs modes also supported by the LaTeX listings package */
-  pre.src-ada:before { content: 'Ada'; }
-  pre.src-asm:before { content: 'Assembler'; }
-  pre.src-caml:before { content: 'Caml'; }
-  pre.src-delphi:before { content: 'Delphi'; }
-  pre.src-html:before { content: 'HTML'; }
-  pre.src-idl:before { content: 'IDL'; }
-  pre.src-mercury:before { content: 'Mercury'; }
-  pre.src-metapost:before { content: 'MetaPost'; }
-  pre.src-modula-2:before { content: 'Modula-2'; }
-  pre.src-pascal:before { content: 'Pascal'; }
-  pre.src-ps:before { content: 'PostScript'; }
-  pre.src-prolog:before { content: 'Prolog'; }
-  pre.src-simula:before { content: 'Simula'; }
-  pre.src-tcl:before { content: 'tcl'; }
-  pre.src-tex:before { content: 'TeX'; }
-  pre.src-plain-tex:before { content: 'Plain TeX'; }
-  pre.src-verilog:before { content: 'Verilog'; }
-  pre.src-vhdl:before { content: 'VHDL'; }
-  pre.src-xml:before { content: 'XML'; }
-  pre.src-nxml:before { content: 'XML'; }
-  /* add a generic configuration mode; LaTeX export needs an additional
-     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
-  pre.src-conf:before { content: 'Configuration File'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
 
   table { border-collapse:collapse; }
   caption.t-above { caption-side: top; }
   caption.t-bottom { caption-side: bottom; }
   td, th { vertical-align:top;  }
-  th.org-right  { text-align: center;  }
-  th.org-left   { text-align: center;   }
-  th.org-center { text-align: center; }
-  td.org-right  { text-align: right;  }
-  td.org-left   { text-align: left;   }
-  td.org-center { text-align: center; }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
   dt { font-weight: bold; }
-  .footpara { display: inline; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
@@ -177,7 +86,6 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
 <script type="text/javascript">
@@ -185,7 +93,7 @@
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2017 Free Software Foundation, Inc.
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -234,23 +142,28 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org4fa814e">1. Introduction</a>
+<li><a href="#sec-1">1. Introduction</a>
 <ul>
-<li><a href="#org1d612b7">1.1. Dialects</a></li>
+<li><a href="#sec-1-1">1.1. Dialects</a></li>
 </ul>
 </li>
-<li><a href="#org2651c47">2. Morphology</a>
+<li><a href="#sec-2">2. Morphology</a>
 <ul>
-<li><a href="#org02b2439">2.1. Pronouns</a></li>
-<li><a href="#orgc17eb91">2.2. Nouns</a></li>
+<li><a href="#sec-2-1">2.1. Pronouns</a></li>
+<li><a href="#sec-2-2">2.2. Nouns</a>
+<ul>
+<li><a href="#sec-2-2-1">2.2.1. Strong nouns</a></li>
+<li><a href="#sec-2-2-2">2.2.2. Weak nouns</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org4fa814e" class="outline-2">
-<h2 id="org4fa814e"><span class="section-number-2">1</span> Introduction</h2>
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Middle Low German (MLG) was a group of closely-related dialects spoken in Northern Germany during the Late Middle Ages (ca. 1200-1600). Due to the rise of the Hanseatic League and the importance of trading centers such as Lübeck, Middle Low German became the <i>lingua franca</i> of trade in Northern Europe during this period.
@@ -265,17 +178,21 @@ The Middle Low German dialects form a continuum and are very closely related to 
 </p>
 </div>
 
-<div id="outline-container-org1d612b7" class="outline-3">
-<h3 id="org1d612b7"><span class="section-number-3">1.1</span> Dialects</h3>
+<div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Dialects</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 Middle Low German is typically divided into four main dialects: 
 </p>
 <dl class="org-dl">
-<dt>Westphalian</dt><dd>Between the Weser and Rhine rivers. Centers of power include Münster, Paderborn, Dortmund, Bielefeld and Osnabrück.</dd>
-<dt>Eastphalian</dt><dd>From the Weser to the Elbe. Centers of power include Hannover, Hildesheim, Braunschweig, Goslar, Göttingen, Magdeburg and Halle.</dd>
-<dt>North Low Saxon</dt><dd>Spoken along the coast.</dd>
-<dt>(South) Brandenburgish</dt><dd>In the East and South.</dd>
+<dt> Westphalian </dt><dd>Between the Weser and Rhine rivers. Centers of power include Münster, Paderborn, Dortmund, Bielefeld and Osnabrück.
+</dd>
+<dt> Eastphalian </dt><dd>From the Weser to the Elbe. Centers of power include Hannover, Hildesheim, Braunschweig, Goslar, Göttingen, Magdeburg and Halle.
+</dd>
+<dt> North Low Saxon </dt><dd>Spoken along the coast.
+</dd>
+<dt> (South) Brandenburgish </dt><dd>In the East and South.
+</dd>
 </dl>
 
 <p>
@@ -285,22 +202,25 @@ The dialect which is most commonly found in sources from or connected to Denmark
 </div>
 </div>
 
-<div id="outline-container-org2651c47" class="outline-2">
-<h2 id="org2651c47"><span class="section-number-2">2</span> Morphology</h2>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Morphology</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Middle Low German is a case language. Nouns decline in four cases (nominative, accusative, dative, genitive) and two numbers (singular, plural). Adjectives decline for case and number as well as the gender (masculine, feminine, neuter) of the noun they point to. Verbs conjugate for person (1, 2, 3), number (singular, plural), tense (present, preterite) and mood (indicative, subjunctive).
 </p>
 
 <dl class="org-dl">
-<dt>Nouns</dt><dd>Case, Number</dd>
-<dt>Adjectives</dt><dd>Case, Gender, Number</dd>
-<dt>Verbs</dt><dd>Person, Number, Tense, Mood</dd>
+<dt> Nouns </dt><dd>Case, Number
+</dd>
+<dt> Adjectives </dt><dd>Case, Gender, Number
+</dd>
+<dt> Verbs </dt><dd>Person, Number, Tense, Mood
+</dd>
 </dl>
 </div>
 
-<div id="outline-container-org02b2439" class="outline-3">
-<h3 id="org02b2439"><span class="section-number-3">2.1</span> Pronouns</h3>
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Pronouns</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 The personal pronouns decline as follows:
@@ -309,83 +229,83 @@ The personal pronouns decline as follows:
 
 
 <colgroup>
-<col  class="org-left" />
+<col  class="left" />
 
-<col  class="org-left" />
+<col  class="left" />
 
-<col  class="org-left" />
+<col  class="left" />
 
-<col  class="org-left" />
+<col  class="left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">&#xa0;</th>
-<th scope="col" class="org-left"><b>1st</b></th>
-<th scope="col" class="org-left"><b>2nd</b></th>
-<th scope="col" class="org-left"><b>REFL</b></th>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left"><b>1st</b></th>
+<th scope="col" class="left"><b>2nd</b></th>
+<th scope="col" class="left"><b>REFL</b></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="org-left">nom</td>
-<td class="org-left">ik</td>
-<td class="org-left">du</td>
-<td class="org-left">&#xa0;</td>
+<td class="left">nom</td>
+<td class="left">ik</td>
+<td class="left">du</td>
+<td class="left">&#xa0;</td>
 </tr>
 
 <tr>
-<td class="org-left">acc</td>
-<td class="org-left">mi, mik</td>
-<td class="org-left">di, dik</td>
-<td class="org-left">sik</td>
+<td class="left">acc</td>
+<td class="left">mi, mik</td>
+<td class="left">di, dik</td>
+<td class="left">sik</td>
 </tr>
 
 <tr>
-<td class="org-left">dat</td>
-<td class="org-left">mi, mik</td>
-<td class="org-left">di, dik</td>
-<td class="org-left">sik</td>
+<td class="left">dat</td>
+<td class="left">mi, mik</td>
+<td class="left">di, dik</td>
+<td class="left">sik</td>
 </tr>
 
 <tr>
-<td class="org-left">gen</td>
-<td class="org-left">mîn</td>
-<td class="org-left">dîn</td>
-<td class="org-left">sîn</td>
+<td class="left">gen</td>
+<td class="left">mîn</td>
+<td class="left">dîn</td>
+<td class="left">sîn</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="org-left">nom</td>
-<td class="org-left">wî</td>
-<td class="org-left">gî</td>
-<td class="org-left">&#xa0;</td>
+<td class="left">nom</td>
+<td class="left">wî</td>
+<td class="left">gî</td>
+<td class="left">&#xa0;</td>
 </tr>
 
 <tr>
-<td class="org-left">acc</td>
-<td class="org-left">ûs</td>
-<td class="org-left">jû</td>
-<td class="org-left">sik</td>
+<td class="left">acc</td>
+<td class="left">ûs</td>
+<td class="left">jû</td>
+<td class="left">sik</td>
 </tr>
 
 <tr>
-<td class="org-left">dat</td>
-<td class="org-left">ûs</td>
-<td class="org-left">jû</td>
-<td class="org-left">sik</td>
+<td class="left">dat</td>
+<td class="left">ûs</td>
+<td class="left">jû</td>
+<td class="left">sik</td>
 </tr>
 
 <tr>
-<td class="org-left">gen</td>
-<td class="org-left">ûser</td>
-<td class="org-left">jûwer</td>
-<td class="org-left">sîn</td>
+<td class="left">gen</td>
+<td class="left">ûser</td>
+<td class="left">jûwer</td>
+<td class="left">sîn</td>
 </tr>
 </tbody>
 </table>
 <p>
-Note that the accusative (e.g. <i>mik</i>) and dative (e.g. <i>mî</i>) have merged.
+Note that the accusative (e.g. <i>mik</i>) and dative (e.g. <i>mî</i>) have merged.g
 </p>
 
 <p>
@@ -396,56 +316,56 @@ The third person pronouns also decline for gender:
 
 
 <colgroup>
-<col  class="org-left" />
+<col  class="left" />
 
-<col  class="org-left" />
+<col  class="left" />
 
-<col  class="org-left" />
+<col  class="left" />
 
-<col  class="org-left" />
+<col  class="left" />
 
-<col  class="org-left" />
+<col  class="left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">&#xa0;</th>
-<th scope="col" class="org-left"><b>MASC SG</b></th>
-<th scope="col" class="org-left"><b>FEM SG</b></th>
-<th scope="col" class="org-left"><b>NEUT SG</b></th>
-<th scope="col" class="org-left"><b>PLURAL</b></th>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left"><b>MASC SG</b></th>
+<th scope="col" class="left"><b>FEM SG</b></th>
+<th scope="col" class="left"><b>NEUT SG</b></th>
+<th scope="col" class="left"><b>PLURAL</b></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="org-left">nom</td>
-<td class="org-left">hê</td>
-<td class="org-left">sê</td>
-<td class="org-left">it</td>
-<td class="org-left">sê</td>
+<td class="left">nom</td>
+<td class="left">hê</td>
+<td class="left">sê</td>
+<td class="left">it</td>
+<td class="left">sê</td>
 </tr>
 
 <tr>
-<td class="org-left">acc</td>
-<td class="org-left">en</td>
-<td class="org-left">sê</td>
-<td class="org-left">it</td>
-<td class="org-left">sê</td>
+<td class="left">acc</td>
+<td class="left">en</td>
+<td class="left">sê</td>
+<td class="left">it</td>
+<td class="left">sê</td>
 </tr>
 
 <tr>
-<td class="org-left">dat</td>
-<td class="org-left">eme</td>
-<td class="org-left">ere</td>
-<td class="org-left">eme</td>
-<td class="org-left">em</td>
+<td class="left">dat</td>
+<td class="left">eme</td>
+<td class="left">ere</td>
+<td class="left">eme</td>
+<td class="left">em</td>
 </tr>
 
 <tr>
-<td class="org-left">gen</td>
-<td class="org-left">sîn</td>
-<td class="org-left">ere</td>
-<td class="org-left">is</td>
-<td class="org-left">ere</td>
+<td class="left">gen</td>
+<td class="left">sîn</td>
+<td class="left">ere</td>
+<td class="left">is</td>
+<td class="left">ere</td>
 </tr>
 </tbody>
 </table>
@@ -460,70 +380,515 @@ The demonstrative pronoun ('the') declines as follows:
 
 
 <colgroup>
-<col  class="org-left" />
+<col  class="left" />
 
-<col  class="org-left" />
+<col  class="left" />
 
-<col  class="org-left" />
+<col  class="left" />
 
-<col  class="org-left" />
+<col  class="left" />
 
-<col  class="org-left" />
+<col  class="left" />
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">&#xa0;</th>
-<th scope="col" class="org-left"><b>MASC SG</b></th>
-<th scope="col" class="org-left"><b>FEM SG</b></th>
-<th scope="col" class="org-left"><b>NEUT SG</b></th>
-<th scope="col" class="org-left"><b>PLURAL</b></th>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left"><b>MASC SG</b></th>
+<th scope="col" class="left"><b>FEM SG</b></th>
+<th scope="col" class="left"><b>NEUT SG</b></th>
+<th scope="col" class="left"><b>PLURAL</b></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="org-left">nom</td>
-<td class="org-left">dê</td>
-<td class="org-left">dê</td>
-<td class="org-left">dat</td>
-<td class="org-left">dê</td>
+<td class="left">nom</td>
+<td class="left">dê</td>
+<td class="left">dê</td>
+<td class="left">dat</td>
+<td class="left">dê</td>
 </tr>
 
 <tr>
-<td class="org-left">acc</td>
-<td class="org-left">den</td>
-<td class="org-left">dê</td>
-<td class="org-left">dat</td>
-<td class="org-left">dê</td>
+<td class="left">acc</td>
+<td class="left">den</td>
+<td class="left">dê</td>
+<td class="left">dat</td>
+<td class="left">dê</td>
 </tr>
 
 <tr>
-<td class="org-left">dat</td>
-<td class="org-left">deme</td>
-<td class="org-left">dere</td>
-<td class="org-left">deme</td>
-<td class="org-left">dem</td>
+<td class="left">dat</td>
+<td class="left">deme</td>
+<td class="left">dere</td>
+<td class="left">deme</td>
+<td class="left">dem</td>
 </tr>
 
 <tr>
-<td class="org-left">gen</td>
-<td class="org-left">des</td>
-<td class="org-left">dere</td>
-<td class="org-left">des</td>
-<td class="org-left">der</td>
+<td class="left">gen</td>
+<td class="left">des</td>
+<td class="left">dere</td>
+<td class="left">des</td>
+<td class="left">der</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 
-<div id="outline-container-orgc17eb91" class="outline-3">
-<h3 id="orgc17eb91"><span class="section-number-3">2.2</span> Nouns</h3>
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Nouns</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Nouns are separated into three genders (masculine, feminine, neuter) and different inflectional categories. Of these categories, the most important are:
+</p>
+
+<dl class="org-dl">
+<dt> Strong nouns </dt><dd>These are the old <i>o</i>-stems from Proto-Indo-European (also known as thematic nouns), which became <i>a</i>-stems in the Proto-Germanic period. It is a very productive category, meaning new nouns (loanwords, deverbals) will often be inflected in this way.
+</dd>
+<dt> Weak nouns </dt><dd>These are also known as <i>n</i>-stems due to the inflectional element <i>n</i>.
+</dd>
+</dl>
+
+<p>
+Two further important inflectional categories are <i>i</i>-stems, which can be divided into short and long stems; and <i>u</i>-stems.
+</p>
+</div>
+
+<div id="outline-container-sec-2-2-1" class="outline-4">
+<h4 id="sec-2-2-1"><span class="section-number-4">2.2.1</span> Strong nouns</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<p>
+The following table shows the inflection of the masculine noun <i>dach</i> (day). Compare the inflection of the Old Icelandic cognate <i>dagr</i>.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left">SG</th>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left">PL</th>
+<th scope="col" class="left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">nom</td>
+<td class="left">dach</td>
+<td class="left"><i>dagr</i></td>
+<td class="left">daghe</td>
+<td class="left"><i>dagar</i></td>
+</tr>
+
+<tr>
+<td class="left">acc</td>
+<td class="left">dach</td>
+<td class="left"><i>dag</i></td>
+<td class="left">daghe</td>
+<td class="left"><i>daga</i></td>
+</tr>
+
+<tr>
+<td class="left">dat</td>
+<td class="left">daghe</td>
+<td class="left"><i>degi</i></td>
+<td class="left">daghen</td>
+<td class="left"><i>dǫgum</i></td>
+</tr>
+
+<tr>
+<td class="left">gen</td>
+<td class="left">daghes</td>
+<td class="left"><i>dags</i></td>
+<td class="left">daghe</td>
+<td class="left"><i>daga</i></td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Note the following observations:
+</p>
+<ul class="org-ul">
+<li>Word-final <i>ch</i> often reflects an underlying <i>g</i> (often spelled <i>gh</i> in front of vowels).
+</li>
+<li>The nominative and accusative endings are the same in Middle Low German due to the loss of word-final <i>*-R</i> (Old Icelandic <i>-r</i>).
+</li>
+<li>The dative singular ends in <i>-e</i> (corresponding to Old Icelandic <i>-i</i>). The plural ending <i>-en</i> is due to final (unstressed) <i>*m</i> &gt; <i>n</i>.
+</li>
+<li>The genitive singular ending <i>-es</i> retains a vowel, as opposed to Old Icelandic <i>-s</i>.
+</li>
+</ul>
+
+<p>
+The neuter noun <i>wort</i> (word) is also a strong noun. Note the similarities between the masculine and neuter inflections. Old Icelandic <i>orð</i> is given as a comparison.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left">SG</th>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left">PL</th>
+<th scope="col" class="left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">nom</td>
+<td class="left">wort</td>
+<td class="left"><i>orð</i></td>
+<td class="left">wort, worde</td>
+<td class="left"><i>orð</i></td>
+</tr>
+
+<tr>
+<td class="left">acc</td>
+<td class="left">wort</td>
+<td class="left"><i>orð</i></td>
+<td class="left">wort, worde</td>
+<td class="left"><i>orð</i></td>
+</tr>
+
+<tr>
+<td class="left">dat</td>
+<td class="left">worde</td>
+<td class="left"><i>orði</i></td>
+<td class="left">worden</td>
+<td class="left"><i>orðum</i></td>
+</tr>
+
+<tr>
+<td class="left">gen</td>
+<td class="left">wordes</td>
+<td class="left"><i>orðs</i></td>
+<td class="left">worde</td>
+<td class="left"><i>orða</i></td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Note the following observations:
+</p>
+<ul class="org-ul">
+<li>Word-final <i>t</i> here represents and underlying <i>d</i>
+</li>
+<li>Due to the loss of a nominative marker in the masculine (corresponding to Old Icelandic <i>-r</i>) there is no difference between masculine and neuter in the singular.
+</li>
+<li>The nominative and accusative plural were originally identical to the singular in neuter nouns, as in Old Icelandic. Over time the plural ending <i>-e</i> spread from the masculine inflection.
+</li>
+</ul>
+
+<p>
+Feminines inflect somewhat differently. Compare the feminine noun <i>gāve</i> (gift; source of Danish <i>gave</i> and Old Icelandic <i>gáfa</i>) with Old Icelandic <i>gjǫf</i>.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left">SG</th>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left">PL</th>
+<th scope="col" class="left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">nom</td>
+<td class="left">gāve</td>
+<td class="left"><i>gjǫf</i></td>
+<td class="left">gāve(n)</td>
+<td class="left"><i>gjafar</i>, <i>-ir</i></td>
+</tr>
+
+<tr>
+<td class="left">acc</td>
+<td class="left">gāve</td>
+<td class="left"><i>gjǫf</i></td>
+<td class="left">gāve(n)</td>
+<td class="left"><i>gjafar</i>, <i>-ir</i></td>
+</tr>
+
+<tr>
+<td class="left">dat</td>
+<td class="left">gāve(n)</td>
+<td class="left"><i>gjǫf</i></td>
+<td class="left">gāven</td>
+<td class="left"><i>gjǫfum</i></td>
+</tr>
+
+<tr>
+<td class="left">gen</td>
+<td class="left">gāve(n)</td>
+<td class="left"><i>gjafar</i></td>
+<td class="left">gāven</td>
+<td class="left"><i>gjafa</i></td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Many of the endings merged in the feminine strong nouns. Over time, a new inflectional element <i>-n</i> spread into the paradigm from the weak nouns (also called <i>n</i>-stems).
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2-2" class="outline-4">
+<h4 id="sec-2-2-2"><span class="section-number-4">2.2.2</span> Weak nouns</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<p>
+The weak or <i>n</i>-inflection is characterized by a stem element <i>n</i> which appears variously throughout the paradigm. This inflectional element eventually spread into other paradigms and is found today as the plural marker of many originally strong nouns in for example Dutch (<i>dag</i>, pl. <i>dagen</i>).
+</p>
+
+<p>
+The following general observations can be made for the weak nouns in Middle Low German, applicable to all three genders:
+</p>
+<ul class="org-ul">
+<li>Only two endings are found: <i>-e</i> and <i>-en</i>.
+</li>
+<li>Nominative singular always ends in <i>-e</i>.
+</li>
+<li>The plural ending <i>-en</i> is used in all four cases.
+</li>
+</ul>
+
+<p>
+Note the following masculine weak noun <i>vörste</i> (prince), which was borrowed into Old Icelandic (via Danish) as <i>fursti</i>, which also inflects as a weak noun.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left">SG</th>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left">PL</th>
+<th scope="col" class="left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">nom</td>
+<td class="left">vörste</td>
+<td class="left"><i>fursti</i></td>
+<td class="left">vörsten</td>
+<td class="left"><i>furstar</i></td>
+</tr>
+
+<tr>
+<td class="left">acc</td>
+<td class="left">vörsten</td>
+<td class="left"><i>fursta</i></td>
+<td class="left">vörsten</td>
+<td class="left"><i>fursta</i></td>
+</tr>
+
+<tr>
+<td class="left">dat</td>
+<td class="left">vörsten</td>
+<td class="left"><i>fursta</i></td>
+<td class="left">vörsten</td>
+<td class="left"><i>furstum</i></td>
+</tr>
+
+<tr>
+<td class="left">get</td>
+<td class="left">vörsten</td>
+<td class="left"><i>fursta</i></td>
+<td class="left">vörsten</td>
+<td class="left"><i>fursta</i></td>
+</tr>
+</tbody>
+</table>
+
+<p>
+The feminine weak noun <i>tunge</i> (tongue) and its Old Icelandic cognate <i>tunga</i> inflect as follows:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left">SG</th>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left">PL</th>
+<th scope="col" class="left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">nom</td>
+<td class="left">tunge</td>
+<td class="left"><i>tunga</i></td>
+<td class="left">tungen</td>
+<td class="left"><i>tungur</i></td>
+</tr>
+
+<tr>
+<td class="left">acc</td>
+<td class="left">tunge</td>
+<td class="left"><i>tungu</i></td>
+<td class="left">tungen</td>
+<td class="left"><i>tungur</i></td>
+</tr>
+
+<tr>
+<td class="left">dat</td>
+<td class="left">tunge(n)</td>
+<td class="left"><i>tungu</i></td>
+<td class="left">tungen</td>
+<td class="left"><i>tungum</i></td>
+</tr>
+
+<tr>
+<td class="left">get</td>
+<td class="left">tunge(n)</td>
+<td class="left"><i>tungu</i></td>
+<td class="left">tungen</td>
+<td class="left"><i>tungna</i></td>
+</tr>
+</tbody>
+</table>
+
+<p>
+The neuter weak noun <i>herte</i> (heart) also inflects as a weak noun in Old Icelandic <i>hjarta</i>
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left">SG</th>
+<th scope="col" class="left">&#xa0;</th>
+<th scope="col" class="left">PL</th>
+<th scope="col" class="left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">nom</td>
+<td class="left">herte</td>
+<td class="left"><i>hjarta</i></td>
+<td class="left">herten</td>
+<td class="left"><i>hjǫrtu</i></td>
+</tr>
+
+<tr>
+<td class="left">acc</td>
+<td class="left">herte</td>
+<td class="left"><i>hjarta</i></td>
+<td class="left">herten</td>
+<td class="left"><i>hjǫrtu</i></td>
+</tr>
+
+<tr>
+<td class="left">dat</td>
+<td class="left">herten</td>
+<td class="left"><i>hjarta</i></td>
+<td class="left">herten</td>
+<td class="left"><i>hjǫrtum</i></td>
+</tr>
+
+<tr>
+<td class="left">get</td>
+<td class="left">herten</td>
+<td class="left"><i>hjarta</i></td>
+<td class="left">herten</td>
+<td class="left"><i>hjartna</i></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="author">Author: Seán Vrieland</p>
-<p class="date">Created: 2023-10-27 Fri 13:06</p>
+<p class="author">Author: Seán D Vrieland</p>
+<p class="date">Created: 2023-12-02 Sat 11:32</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.8)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
