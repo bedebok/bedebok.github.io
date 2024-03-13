@@ -38,7 +38,7 @@ The personal pronouns decline as follows:
 | dat | ûs      | jû      | sik    |
 | gen | ûser    | jûwer   | sîn    |
 |-----+---------+---------+--------|
-Note that the accusative (e.g. /mik/) and dative (e.g. /mî/) have merged.g
+Note that the accusative (e.g. /mik/) and dative (e.g. /mî/) have merged.
 
 The third person pronouns also decline for gender:
 
