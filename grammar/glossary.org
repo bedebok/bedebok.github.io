@@ -3,6 +3,7 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 
 
 #+ATTR_HTML: :border 2 :rules all :frame border
+<<<<<<< HEAD
 |------------------+----------+----------------------------+-----------------|
 | Lemma            | POS      | Definition                 | Danish parallel |
 |------------------+----------+----------------------------+-----------------|
@@ -251,6 +252,259 @@ This glossary contains words found in the reading texts for the Middle Low Germa
 | wor              | conj     | where, when                |                 |
 | worbi            | conj     | whereby                    |                 |
 |------------------+----------+----------------------------+-----------------|
+=======
+|------------------+----------+----------------------------|
+| Lemma            | POS      | Definition                 |
+|------------------+----------+----------------------------|
+| al               | adj/pron | all, entire, whole         |
+| almechticheit    | f        | almightiness               |
+| also             | adv      | thus, so, in this way      |
+| an               | prep     | at, in, by, to             |
+| anbegin          | m/n      | beginning                  |
+| ander            | pron     | other                      |
+| anwiser          | m        | teacher                    |
+| arbeiden         | v        | work                       |
+| barmherticheit   | f        | mercy, compassion          |
+| beger            | n/f      | desire                     |
+| begeren          | v        | covet, desire              |
+| begin            | n        | beginning                  |
+| beginnen         | v        | begin                      |
+| behagen          | v        | please                     |
+| beholden         | v        | keep, retain               |
+| bekeren          | v        | convert                    |
+| benedien         | v        | bless                      |
+| beneding         | f        | blessing                   |
+| beren            | v        | bear                       |
+| berichten        | v        | report, inform             |
+| berichten        | v        | inform                     |
+| bescheideliken   | adj      | prudent                    |
+| bewaren          | v        | preserve: keep safe        |
+| bidden           | v        | ask, pray                  |
+| bidden           | v        | ask, pray                  |
+| bleven           | v        | become, remain, be         |
+| blot             | n        | blood                      |
+| bode             | m        | messenger                  |
+| bok              | n        | book                       |
+| broder           | m        | brother, friar             |
+| by               | prep     | by, because of             |
+| creature         | f        | creature                   |
+| dach             | m        | day                        |
+| darane           | adv      | in that manner             |
+| darumme          | adv      | therefore, for that reason |
+| dat              | adv      | that                       |
+| de               | dat      | the                        |
+| denen            | v        | serve                      |
+| denken           | v        | think                      |
+| desse            | pron     | this                       |
+| dink             | n        | thing                      |
+| do               | adv      | when, then                 |
+| dod              | m        | death                      |
+| don              | v        | do                         |
+| dorch            | prep     | through                    |
+| dragen           | v        | drag, bring                |
+| drevaldicheit    | f        | Trinity                    |
+| dur              | adj      | precious, expensive, dear  |
+| duvel            | m        | devil                      |
+| e                | f        | law                        |
+| en               | num      | one, a                     |
+| ende             | m/n      | end                        |
+| ene wile         | adv      | for a time                 |
+| engel            | m        | angel                      |
+| entbeden         | v        | send for, summon           |
+| entbreken        | v        | lack                       |
+| er               | adv      | before                     |
+| er(er)           | poss     | their                      |
+| ere              | f        | honor                      |
+| ersebischop      | m        | archbishop                 |
+| ertrike          | f        | Kingdom of Earth           |
+| exempeler        | m        | exemplar                   |
+| eyn (-->en)      |          |                            |
+| forme            | f        | form                       |
+| gan              | v        | go                         |
+| geboren          | adj      | born                       |
+| gebot            | n        | commandment                |
+| gelove           | m        | faith                      |
+| gene             | pron     | the one                    |
+| genesen          | v        | heal                       |
+| geslechte        | n        | family, lineage            |
+| gestlik          | adj      | spiritual                  |
+| gevallen         | v        | occur                      |
+| geven            | v        | give                       |
+| gewar            | adj      | aware                      |
+| gewesen (-->syn) |          |                            |
+| gewinnen         | v        | acquire                    |
+| gewinnen         | v        | acquire                    |
+| gi               | pron     | you (pl)                   |
+| gi               | pron     | you (pl)                   |
+| gnade            | f        | mercy, grace               |
+| god              | m        | god, God                   |
+| grekisch         | adj      | Greek                      |
+| grekisch         | adj      | Greek                      |
+| greve            | m        | count (nobleman)           |
+| grot             | adj      | great, large               |
+| hand             | f        | hand                       |
+| hastig           | adj      | hasty, impatient, angry    |
+| he               | pron     | he                         |
+| hebben           | v        | have                       |
+| helle            | f        | Hell                       |
+| hemelik          | adj      | secretly                   |
+| hemmel           | m        | heaven                     |
+| hemmelrike       | n        | Kingdom of Heaven          |
+| here             | m        | lord                       |
+| heten            | v        | be called                  |
+| hillich          | adj      | holy                       |
+| hirna            | adv      | after that                 |
+| holden           | v        | hold                       |
+| in               | prep     | in                         |
+| islik            | pron     | any, all                   |
+| jummermeer       | adv      | evermore                   |
+| junger           | m        | disciple                   |
+| keiser           | m        | emperor                    |
+| klerk            | m        | cleric                     |
+| komen            | v        | come                       |
+| koning           | m        | king                       |
+| krigen           | v        | get, receive               |
+| kristen          | adj      | Christian                  |
+| lange            | adv      | long                       |
+| laten            | v        | let                        |
+| latin            | adj/n    | Latin                      |
+| leden            | v        | lead                       |
+| lesen            | v        | read                       |
+| leve             | f        | love                       |
+| leven            | v        | live                       |
+| lichamlik        | adj      | bodily                     |
+| lief, lef        | adj      | beloved                    |
+| lude             | n.pl.    | people                     |
+| macht            | f        | might, power, authority    |
+| maken            | v        | make                       |
+| martelen         | v        | martyr                     |
+| mechtig          | adj      | mighty                     |
+| men              | conj     | but                        |
+| mennichvoldich   | adj      | manifold, numerous         |
+| mennichvoldigen  | v        | multiply                   |
+| mid, mit         | prep     | with                       |
+| mogen            | v        | can, be able               |
+| na               | prep     | after, according to        |
+| na               | adv      | afterwards                 |
+| name             | m        | name                       |
+| negen            | num      | nine                       |
+| nemant           | pron     | nobody                     |
+| nicht            | adv      | not                        |
+| nummermeer       | adv      | nevermore                  |
+| old              | adj      | old                        |
+| onder            | prep     | under                      |
+| openbar          | adj      | obvious, revealed          |
+| openbaren        | v        | reveal                     |
+| orde             | m/f      | order                      |
+| ordel            | n/f      | judgement                  |
+| over             | prep     | over, above                |
+| over eyn         | adv      | in agreement               |
+| over treden      | v        | overstep, transgress       |
+| overmate         | adj      | excessive                  |
+| overmate         | f        | excess                     |
+| partriarche      | m        | patriarch                  |
+| philosophus      | m        | philosopher                |
+| prediken         | v        | preach                     |
+| presterschop     | f        | priesthood                 |
+| profit           | m/n      | benefit, profit            |
+| rad              | m        | advice                     |
+| redelicheit      | f        | rationality, reason        |
+| ridder           | m        | knight                     |
+| saracenes        | adj/n    | Arabic                     |
+| schen            | v        | happen                     |
+| schollen         | v        | shall                      |
+| schon            | adj      | beautiful                  |
+| schriven         | v        | write                      |
+| se               | prep     | they                       |
+| selschop         | f        | company, community         |
+| senden           | v        | send                       |
+| sere             | adv      | very                       |
+| setten           | v        | set, put                   |
+| sik              | pron     | (reflexive pronoun)        |
+| slechte          | n        | family, lineage            |
+| soken            | v        | seek                       |
+| sone             | m        | son                        |
+| spetal           | n/m      | hospital                   |
+| steden           | v        | place, allow               |
+| storten          | v        | pour, let fall             |
+| stunde           | f        | time                       |
+| sulv             | pron     | self                       |
+| sunder           | prep     | without                    |
+| syn              | poss     | his                        |
+| syn              | v        | be                         |
+| tid              | m/f      | time                       |
+| to               | prep     | to, in, at                 |
+| to lesten        | adv      | finally                    |
+| to rechte        | adv      | rightly                    |
+| tokumpst         | f        | coming                     |
+| treden           | v        | step                       |
+| tresel           | m        | treasury                   |
+| umme             | conj     | because of, in order to    |
+| umme             | prep     | about                      |
+| unde             | conj     | and                        |
+| ungelovich       | adj      | unbelieving                |
+| uns              | poss     | our                        |
+| up               | prep     | up, on, at                 |
+| upstandinge      | f        | resurrection               |
+| utsetich         | adj      | outcast, leperous          |
+| utsetten         | v        | translate                  |
+| vader            | m        | father                     |
+| van              | prep     | of, from                   |
+| vel              | adj      | many                       |
+| viant            | m        | enemy, fiend               |
+| vinden           | v        | find                       |
+| volk             | n        | folk, people               |
+| vorbenomet       | adj      | aforementioned             |
+| vorbernen        | v        | burn                       |
+| vorkundigen      | v        | proclaim, report           |
+| vorlesen         | v        | lose                       |
+| vorloren         | adj      | lost                       |
+| vormeren         | v        | increase                   |
+| vormiddelst      | prep     | amidst, amongst            |
+| vorsichticheit   | f        | foresight, providence      |
+| vorsmaden        | v        | reject, refuse             |
+| vorstan          | v        | understand                 |
+| vorvader         | m        | forefather                 |
+| vorvullen        | v        | complete                   |
+| vorwilkoren      | v        | predestine                 |
+| vrage            | f        | question                   |
+| vragen           | v        | ask                        |
+| vroude           | f        | joy                        |
+| wanderen         | v        | wander                     |
+| was (-->syn)     |          |                            |
+| wassen           | v        | grow                       |
+| water vlot       | f        | flood                      |
+| wedder           | adv      | again                      |
+| welk             | pron     | which                      |
+| wellen           | v        | want                       |
+| wente (-->wante) |          |                            |
+| werd             | adj      | worthy, valuable           |
+| werden           | v        | become                     |
+| werdicheit       | f        | esteem, value              |
+| werdichlik       | adj      | worthy, valuable           |
+| werdigen         | v        | honor, appreciate          |
+| weren (-->syn)   |          |                            |
+| werk             | n        | work                       |
+| werlt            | f        | world                      |
+| wesent           | n        | creature, being            |
+| weten            | v        | know                       |
+| weten            | v        | know                       |
+| wetenheit        | f        | knowledge; wisdom          |
+| wif              | n        | wife                       |
+| wilkoren         | v        | choose, elect              |
+| wille            | m        | will                       |
+| wis              | adj      | wise                       |
+| wisen            | v        | show                       |
+| wisheit          | f        | wisdom                     |
+| wo               | adv      | where                      |
+| wo               | adv      | how                        |
+| wo af            | prep     | where (from)               |
+| wol              | adv      | well, nevertheless         |
+| wonen            | v        | live                       |
+| wor              | conj     | where, when                |
+| worbi            | conj     | whereby                    |
+|------------------+----------+----------------------------|
+>>>>>>> 0d0d545ede255c3bf1f81f10876e0328dcd4d76d
 
 * Proper names
 | Antiochia | Antioch             |
